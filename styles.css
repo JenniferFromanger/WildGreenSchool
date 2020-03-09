@@ -18,5 +18,19 @@ ul {
 button {
     background-color: #8DB54B;
     border-radius: 15px;
-    padding: 6px;
+    padding: 5px 8px;
+    margin: 10px;
+}
+
+.carousel {
+    color: #8DB54B;
+    height: 350px;
+    margin: auto;
+    background-image: url(Images/carousel.png);
+}
+
+}
+
+h1 {
+    font-size: 100px;
 }
