@@ -1,0 +1,22 @@
+header, nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    padding: 0;
+}
+.logo {
+    width: 60%;
+}
+
+button {
+    background-color: #8DB54B;
+    border-radius: 15px;
+    padding: 6px;
+}
