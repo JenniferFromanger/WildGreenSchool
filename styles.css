@@ -1,0 +1,29 @@
+h2 {
+    text-transform: uppercase;
+}
+
+.green {
+    color: #8DB54B;
+}
+
+.campus {
+    text-align: center;
+}
+
+.espcampus {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.bloccampus {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.h3campus {
+    height: 50px;
+}
+
