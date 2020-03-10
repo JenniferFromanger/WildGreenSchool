@@ -2,6 +2,7 @@
 header, nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -14,14 +15,36 @@ ul {
 }
 .logo {
     width: 60%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 button {
     background-color: #8DB54B;
     border-radius: 15px;
-    padding: 6px;
+    padding: 5px 8px;
+    margin: 10px;
 }
-=======
+
+.carousel {
+    height: 350px;
+    background: url(Images/carousel.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.carousel h1, .carousel h2 {
+    margin-left: 2%;
+}
+h1 {
+    color: #8DB54B;
+}
+
 h2 {
     text-transform: uppercase;
 }
