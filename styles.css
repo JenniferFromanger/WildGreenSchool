@@ -121,3 +121,107 @@ form input{
     background-color: white;
 }
 /* Fin section contact */
+
+/* ----------------- ACTUS ------------------- */
+
+.actus h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.actus h2 span {
+    color:#8DB54B;
+}
+
+.actu-container {
+    display: flex;
+}
+
+span.date {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 23%;
+    color: white;
+    background:black;
+    padding: 10px 10px;
+    text-align: center;
+    min-width: 70px;
+ }
+
+ span .date-chiffre {
+     font-size: 30px;
+ }
+
+.left-section {
+    display: flex;
+    position: relative;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.left-section img {
+    margin-right:0;
+}
+
+.right-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+
+.right-section {
+    flex-direction: column;
+    width: 50%;
+    margin-left:15px;
+}
+
+.img1, .img2, .img3 {
+    display: flex;
+    align-items: center;
+}
+
+.right-section p {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.right-section p a {
+    color:#8DB54B;
+}
+
+/* ----------------- Actus Media Query ------------------- */
+
+@media screen and (max-width: 961px) {
+
+.actu-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+span.date {
+    top: 0%;
+    left: 0%;
+}
+
+.left-section, .right-section {
+    margin:0;
+}
+
+.left-section {
+    margin-bottom: 30px;
+}
+
+.right-section h3 {
+text-align: center;
+}
+
+.right-section p {
+    width: 65%;
+}
+}
+
+/* ----------------- FIN ACTUS ------------------- */
