@@ -198,3 +198,232 @@ button {
   .social:hover > li:hover {
     opacity: 1;
   }
+<<<<<<< HEAD
+=======
+header, nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    padding: 0;
+}
+.logo {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img {
+    width: 10vw;
+    height: 3vw;
+    margin: 1vw;
+
+}
+
+button {
+    background-color: #8DB54B;
+    border-radius: 15px;
+    padding: 5px 8px;
+    margin: 10px;
+}
+
+.carousel {
+    height: 500px;
+    background: url(Images/carousel.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.carousel h1, .carousel h2 {
+    margin-left: 2%;
+}
+h1 {
+    color: #8DB54B;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.green {
+    color: #8DB54B;
+}
+
+.campus {
+    text-align: center;
+    background-color: #F6F6F4;
+    padding: 2em 0em 2em 0em;
+}
+
+.espcampus {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.bloccampus {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.h3campus {
+    height: 50px;
+}
+
+/* section contact */
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6F6F4;
+}
+
+.contact h2{
+    padding: 15px;
+    text-align: center;
+}
+form{
+    width: 450px;
+}
+form button{
+    border-radius: 2px;
+    align-self: flex-end;
+    background-color: #8DB54B;
+    border-color: lightgrey;
+    padding: 5px 12px 5px 12px;
+    color: white;
+
+}
+form textarea{
+    border: 1px solid #8DB54B;
+    border-radius: 10px;
+}
+form input{
+    border-radius: 5px;
+}
+#plan{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+}
+/* Fin section contact */
+
+/* ----------------- ACTUS ------------------- */
+
+.actus h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.actus h2 span {
+    color:#8DB54B;
+}
+
+.actu-container {
+    display: flex;
+}
+
+span.date {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 23%;
+    color: white;
+    background:black;
+    padding: 10px 10px;
+    text-align: center;
+    min-width: 70px;
+ }
+
+ span .date-chiffre {
+     font-size: 30px;
+ }
+
+.left-section {
+    display: flex;
+    position: relative;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.left-section img {
+    margin-right:0;
+}
+
+.right-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+
+.right-section {
+    flex-direction: column;
+    width: 50%;
+    margin-left:15px;
+}
+
+.img1, .img2, .img3 {
+    display: flex;
+    align-items: center;
+}
+
+.right-section p {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.right-section p a {
+    color:#8DB54B;
+}
+
+/* ----------------- Actus Media Query ------------------- */
+
+@media screen and (max-width: 961px) {
+
+.actu-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+span.date {
+    top: 0%;
+    left: 0%;
+}
+
+.left-section, .right-section {
+    margin:0;
+}
+
+.left-section {
+    margin-bottom: 30px;
+}
+
+.right-section h3 {
+text-align: center;
+}
+
+.right-section p {
+    width: 65%;
+}
+}
+
+/* ----------------- FIN ACTUS ------------------- */
+>>>>>>> footer

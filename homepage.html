@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wild Green School</title>
     <link rel='stylesheet' href='styles.css'/>
+    <link rel=‘stylesheet’ href=‘reset.css’ />
 
 </head>
 
 <body>
     <header>
-        <div class="logo">logo</div>
+
+        <div class="logo">
+            <img src="Images/logoWGS.png" alt="logo" />
+        </div>
+        
         <nav>
             <ul>Formations</ul>
             <ul>Le Campus</ul>
@@ -20,11 +25,15 @@
         <button type="submit">Je candidate</button>
     </header>
     
-    <div class="banniere_image">
-    <h1>Wild Green School</h1>
+    <div class="carousel">
+        <h1>Wild Green School</h1>
+        <h2>Apprenez à faire pousser vos capacités</h2>
     </div>
 
+
+
     <section class="formations">
+
         <h2>Formations</h2>
         <article>
             <h3>J'apprends à faire mon potager</h3>
@@ -39,25 +48,93 @@
     </section>
 
     <section class="campus">
-        <h2>Nos Valeurs</h2>
-    </section>
+        <h2>Un campus <span class="green">green</span></h2>
 
-    <section>
-        <h2>Actus</h2>
-    </section>
+        <p>Wild Green School est un campus éco-responsable, respectueux des hommes et de l'environnement. Nous nous engageons auprès de trois causes :</p>
+
+        <div class= "espcampus">
+
+        <div class="bloccampus">
+            <img src="images/energie.png" alt="énergie renouvelable"></br>
+            <h3 class="h3campus">100% énergie renouvelable</h3>
+            <p class="pcampus">Nous produisons notre propre électricité grâce à une éolienne située sur le toit du campus.</p>
+        </div>
+        
+        <div class="bloccampus">
+        <img src="images/faitmaison.png" alt="bio fait maison"></br>
+        <h3 class="h3campus">Bio et</br> fait-maison</h3>
+        <p class="pcampus">Nos repas, savons et produits d'entretien sont créés par nos soins avec des ingrédients bio et naturels.</p>
+     </div>
+
+    <div class="bloccampus">
+        <img src="images/dechet.png" alt="zero dechet"></br>
+        <h3 class="h3campus">Zéro</br> déchet</h3>
+        <p class="pcampus">Qui sort les poubelles ? Pas besoin de sortir les poubelles car nous ne produisons aucun déchet.</p>
+    </div>
+</div>
+</section>
+
+<section class="actus">
+    <h2>Actus<span>'</span></h2>
+    <div class="actu-container">
+        <div class="left-section">
+            <img width="500" src="Images/apiculteur.jpg" alt="photo atelier d'initiation apiculteur">
+            <span class="date">
+            <span class="date-chiffre">30</span><br/>
+            <span class="date-mois">Mars</span><br/>
+            <span class="date-annee">2020</span>
+            </span>
+        </div>
+        <div class='right-section'>
+            <h3>À VENIR</h3>
+            <div class="img1">
+                <img src="Images/calendar1.png" alt="photo 1er évenement à venir" width="100">
+                <p>"VIVRE NATURE", le salon bio - agriculture biologique, produits au naturel et bien-être. <a href="">S'inscrire</a></p>
+            </div>
+            <div class="img2">
+                <img src="Images/calendar2.png" alt="photo 2nd évenement à venir" width="100">
+                <p>ATELIER PRATIQUE pour vous familiariser à certaines tâches du jardinage et apprendre à faire votre potager écologique. <a href="">S'inscrire</a></p>
+            </div>
+            <div class="img3">
+                <img src="Images/calendar3.png" alt="photo 3ème événement à venir" width="100">
+                <p>ATELIER BIO & VEGAN, pour découvrir un mode de vie où le respect du bien-être animal, sous toute ses formes, est mis en avant. <a href="">S'inscrire</a></p>
+            </div> 
+        </div>
+    </div>
+</section>
    
     <section class="contact">
-        <h2>Contact</h2>
+        <form id="contact_form" action="#" method="POST">
+            <h2>Contact'</h2>
+            <div class="row">
+                <label class="required" for="name">Nom :</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+            </div>
+        <div class="row">
+            <label class="required" for="email">Mail :</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+        </div>
+        <div class="row">
+            <label class="required" for="message">Votre message :</label><br />
+            <textarea id="message" class="input" name="message" rows="8" cols="40"></textarea><br />
+        </div>
+        <button type="submit" id="submit_button" value="Envoyer">Envoyer</button>
+        </form>
+        <div id="plan">
+            <p>
+                Pour nous trouver
+            </p>
+        </div>
     </section>
 
     <footer class="footer-bar">
  
         <div class="footer-left">
-<<<<<<< HEAD
-            <img src="logo">
-=======
+
+
       <img src="logo-wildgreenschool.png"></img>
->>>>>>> footer
+
+
             <h3>Wild Green School</h3>
 
             <p class="footer-links">
