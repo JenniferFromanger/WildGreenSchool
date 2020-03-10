@@ -1,9 +1,22 @@
+@font-face {
+    font-family: 'JennaSue';
+    src: url('font/JennaSue.ttf');
+}
+
+@font-face {
+    font-family: 'TNanti-Demo';
+    src: url('font/TNanti-Demo.otf');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 header, nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 nav {
@@ -12,24 +25,29 @@ nav {
 
 ul {
     padding: 0;
+    text-transform: uppercase;
 }
+
 .logo {
     width: 60%;
     display: flex;
     justify-content: flex-start;
 }
+
 .logo img {
     width: 10vw;
     height: 3vw;
     margin: 1vw;
-
 }
 
 button {
     background-color: #8DB54B;
-    border-radius: 15px;
-    padding: 5px 8px;
+    padding: 7px 20px;
     margin: 10px;
+    border:none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .carousel {
@@ -54,16 +72,18 @@ h1 {
 h2 {
     text-transform: uppercase;
     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0;
+    font-family: 'TNanti-Demo';
 }
-
-
 
 
 /* CSS CAMPUS ------------------- */
 .campus {
     text-align: center;
     background-color: #F6F6F4;
-    padding: 2em 0em 2em 0em;
+    padding: 0.8em 0em 2em 0em;
 }
 
 .green {
@@ -83,9 +103,10 @@ h2 {
 
 .h3campus {
     height: 50px;
+    font-family: 'JennaSue';
+    font-size: 1.8em;
 }
 
-<<<<<<< HEAD
 /* section contact */
 
 .contact{
@@ -128,12 +149,6 @@ form input{
 
 /* ----------------- ACTUS ------------------- */
 
-.actus h2 {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 40px;
-    font-weight: bold;
-}
 
 .actus h2 span {
     color:#8DB54B;
@@ -197,7 +212,6 @@ span.date {
     color:#8DB54B;
 }
 
-=======
 /* CSS FORMATIONS ------------------- */
 
 .formations {
@@ -206,7 +220,9 @@ span.date {
 }
 
 .formations h3 {
-    text-transform: uppercase;
+    font-size: 2.3em;
+    font-family: 'JennaSue';
+    margin: 18px 0;
 
 }
 
@@ -226,8 +242,6 @@ span.date {
 }
 
 article {
-
-
     width: 22em;
     margin: 2em auto 3em auto;
     background-color: #F6F6F4;
@@ -244,4 +258,3 @@ article p {
     justify-content: center;
     margin-top: 2em;
 }
->>>>>>> formation
