@@ -169,27 +169,26 @@ button {
     font-size: 30px;}
     
 .social {
-      padding-left: 0px;
-    }
-    li {
-      color: rgba(167, 146, 129, 0.6);
-      list-style-type: none;
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      line-height: 50px;
-      padding: 1%;
-      border: 1px solid rgba(167, 146, 129, 0.4);
-      cursor: pointer;
-      margin-left: 10px;
-      margin-bottom: 20px;
-      transition: ease .3s;
-      &:hover {
-        color: rgba(167, 146, 129, 1);
-        border: 1px solid rgba(167, 146, 129, 1);
-      }
-    }
-  }
+    padding-left: 0px;
+}
+.social li {
+    color: rgba(167, 146, 129, 0.6);
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(167, 146, 129, 0.4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+}
+.social li:hover {
+    color: rgba(167, 146, 129, 1);
+    border: 1px solid rgba(167, 146, 129, 1);
+}
   
   .social:hover > li {
     opacity: 0.5;
@@ -198,8 +197,7 @@ button {
   .social:hover > li:hover {
     opacity: 1;
   }
-<<<<<<< HEAD
-=======
+
 header, nav {
     display: flex;
     justify-content: space-between;
@@ -254,23 +252,26 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    text-align: center;
 }
 
-.green {
-    color: #8DB54B;
-}
 
+
+
+/* CSS CAMPUS ------------------- */
 .campus {
     text-align: center;
     background-color: #F6F6F4;
     padding: 2em 0em 2em 0em;
 }
 
-.espcampus {
+.green {
+    color: #8DB54B;
+}
 
+.espcampus {
     display: flex;
     justify-content: center;
-
 }
 
 .bloccampus {
@@ -426,4 +427,49 @@ text-align: center;
 }
 
 /* ----------------- FIN ACTUS ------------------- */
->>>>>>> footer
+/* CSS FORMATIONS ------------------- */
+
+.formations {
+    text-align: center;
+
+}
+
+.formations h3 {
+    text-transform: uppercase;
+
+}
+
+.pformations {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.articlesformation {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+article {
+
+
+    width: 22em;
+    margin: 2em auto 3em auto;
+    background-color: #F6F6F4;
+}
+
+article p {
+    
+    margin: auto 1em 2em 1em;
+}
+
+.voirformation {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
