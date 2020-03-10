@@ -160,6 +160,9 @@ button {
     display: table;
     width: 100%;
     margin-top: 0px;
+    position: relative;
+    right: 570px;
+    top: 1em;
     
   }
   
@@ -198,6 +201,9 @@ button {
   .social:hover > li:hover {
     opacity: 1;
   }
+
+  /* ----------------------- */
+
 
 header, nav {
     display: flex;
@@ -270,50 +276,35 @@ h2 {
     color: #8DB54B;
 }
 
-.pcampus {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-}
-
 .espcampus {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .bloccampus {
     width: 250px;
     margin: 20px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-    flex-wrap: wrap;
 }
 
 .h3campus {
     height: 50px;
 }
 
-/**** section contact ****/
+/* section contact */
 
 .contact{
+    display: flex;
+    justify-content: space-evenly;
     background-color: #F6F6F4;
 }
-.contact-container{
-    display: flex;
-    justify-content: space-around;
-}
+
 .contact h2{
     padding: 15px;
     text-align: center;
 }
 form{
-    /*width: 450px;*/
-    display: flex;
-    flex-direction: column;
+    width: 450px;
 }
 form button{
     border-radius: 2px;
@@ -322,27 +313,22 @@ form button{
     border-color: lightgrey;
     padding: 5px 12px 5px 12px;
     color: white;
+
 }
 form textarea{
     border: 1px solid #8DB54B;
     border-radius: 10px;
-    width: 400px;
 }
 form input{
     border-radius: 5px;
 }
-#message{
-    padding: 5px;
-}
 #plan{
-    border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px;
-    width: auto;
+    width: 50%;
     background-color: white;
 }
-
 /* Fin section contact */
 
 /* ----------------- ACTUS ------------------- */
@@ -494,4 +480,3 @@ article p {
     justify-content: center;
     margin-top: 2em;
 }
-
