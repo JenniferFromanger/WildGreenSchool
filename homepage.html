@@ -74,15 +74,32 @@
 </div>
 </section>
 
-
-
-=======
     <section>
         <h2>Actus</h2>
     </section>
    
     <section class="contact">
-        <h2>Contact</h2>
+        <form id="contact_form" action="#" method="POST">
+            <h2>Contact'</h2>
+            <div class="row">
+                <label class="required" for="name">Nom :</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+            </div>
+        <div class="row">
+            <label class="required" for="email">Mail :</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+        </div>
+        <div class="row">
+            <label class="required" for="message">Votre message :</label><br />
+            <textarea id="message" class="input" name="message" rows="8" cols="40"></textarea><br />
+        </div>
+        <button type="submit" id="submit_button" value="Envoyer">Envoyer</button>
+        </form>
+        <div id="plan">
+            <p>
+                Pour nous trouver
+            </p>
+        </div>
     </section>
 
     <footer>
