@@ -1,0 +1,32 @@
+/* ----------------- Media Query ------------------- */
+
+/* ----------------- Actus ------------------- */
+
+@media screen and (max-width: 961px) {
+
+    .actu-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    span.date {
+        top: 0%;
+        left: 0%;
+    }
+    
+    .left-section, .right-section {
+        margin:0;
+    }
+    
+    .left-section {
+        margin-bottom: 30px;
+    }
+    
+    .right-section h3 {
+    text-align: center;
+    }
+    
+    .right-section p {
+        width: 65%;
+    }
+    }

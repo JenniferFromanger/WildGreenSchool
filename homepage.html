@@ -6,11 +6,13 @@
     <title>Wild Green School</title>
     <link rel='stylesheet' href='styles.css'/>
     <link rel=‘stylesheet’ href=‘reset.css’ />
+    <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
 
 </head>
 
 <body>
     <header>
+
         <div class="logo">
             <img src="Images/logoWGS.png" alt="logo" />
         </div>
@@ -22,7 +24,6 @@
             <ul>Contact</ul>
         </nav>
         <button type="submit">Je candidate</button>
-
     </header>
     
     <div class="carousel">
@@ -34,17 +35,35 @@
 
     <section class="formations">
 
-        <h2>Formations</h2>
+        <h2>Zoom sur nos formations</h2>
+
+        <div class="pformations"><p>Découvrez nos formations en permaculture ! La permaculture est un système de culture intégré et évolutif s’inspirant des écosystèmes naturels. C’est également une démarche éthique et une philosophie qui s’appuient sur 3 piliers : « prendre soin de la Terre, prendre soin des humains et partager équitablement les ressources ». La société associe généralement permaculture avec maraîchage et jardinage amateur.</p>
+        </div>
+
+    <div class="articlesformation">
+
         <article>
-            <h3>J'apprends à faire mon potager</h3>
+            <img src="Images/potager.png" alt="potager">
+            <h3>Faire son potager</h3>
+            <p>Faites pousser des fruits et légumes bio sans pesticides.</p>
+            <div class="voirformation"><button type="submit">Découvrir</button></div>
         </article>
+        
         <article>
+            <img src="Images/ruche.png" alt="ruche">
             <h3>Créer sa ruche</h3>
+            <p>Créez et installez votre propre ruche dans votre jardin.</p>
+            <div class="voirformation"><button type="submit">Découvrir</button></div>
         </article>
+
         <article>
+            <img src="Images/lombric.png" alt="compostage">
             <h3>Lombric Compostage</h3>
+            <p>Découvrez le lombricompostage avec des vers et recyclez vos déchets.</p>
+            <div class="voirformation"><button type="submit">Découvrir</button></div>
         </article>
-    
+
+    </div>
     </section>
 
     <section class="campus">
@@ -55,28 +74,56 @@
         <div class= "espcampus">
 
         <div class="bloccampus">
-            <img src="images/energie.png" alt="énergie renouvelable"></br>
+            <img src="Images/energie.png" alt="énergie renouvelable"></br>
             <h3 class="h3campus">100% énergie renouvelable</h3>
             <p class="pcampus">Nous produisons notre propre électricité grâce à une éolienne située sur le toit du campus.</p>
         </div>
         
         <div class="bloccampus">
-        <img src="images/faitmaison.png" alt="bio fait maison"></br>
+        <img src="Images/faitmaison.png" alt="bio fait maison"></br>
         <h3 class="h3campus">Bio et</br> fait-maison</h3>
         <p class="pcampus">Nos repas, savons et produits d'entretien sont créés par nos soins avec des ingrédients bio et naturels.</p>
      </div>
 
     <div class="bloccampus">
-        <img src="images/dechet.png" alt="zero dechet"></br>
+        <img src="Images/dechet.png" alt="zero dechet"></br>
         <h3 class="h3campus">Zéro</br> déchet</h3>
         <p class="pcampus">Qui sort les poubelles ? Pas besoin de sortir les poubelles car nous ne produisons aucun déchet.</p>
     </div>
 </div>
 </section>
-    <section>
-        <h2>Actus</h2>
-    </section>
-    <!-- Section contact -->
+
+
+<section class="actus">
+    <h2>Actus<span>'</span></h2>
+    <div class="actu-container">
+        <div class="left-section">
+            <img width="500" src="Images/apiculteur.jpg" alt="photo atelier d'initiation apiculteur">
+            <span class="date">
+            <span class="date-chiffre">30</span><br/>
+            <span class="date-mois">Mars</span><br/>
+            <span class="date-annee">2020</span>
+            </span>
+        </div>
+        <div class='right-section'>
+            <h3>À VENIR</h3>
+            <div class="img1">
+                <img src="Images/calendar1.png" alt="photo 1er évenement à venir" width="100">
+                <p>"VIVRE NATURE", le salon bio - agriculture biologique, produits au naturel et bien-être. <a href="">S'inscrire</a></p>
+            </div>
+            <div class="img2">
+                <img src="Images/calendar2.png" alt="photo 2nd évenement à venir" width="100">
+                <p>ATELIER PRATIQUE pour vous familiariser à certaines tâches du jardinage et apprendre à faire votre potager écologique. <a href="">S'inscrire</a></p>
+            </div>
+            <div class="img3">
+                <img src="Images/calendar3.png" alt="photo 3ème événement à venir" width="100">
+                <p>ATELIER BIO & VEGAN, pour découvrir un mode de vie où le respect du bien-être animal, sous toute ses formes, est mis en avant. <a href="">S'inscrire</a></p>
+            </div> 
+        </div>
+    </div>
+</section>
+   
+>>>>>>> 2aa1c871c383135ceea5ff2194be1a872151e206
     <section class="contact">
         <h2>Contact'</h2>
         <div class="contact-container">
@@ -108,8 +155,74 @@
     </div>
     </section>
 
-    <footer>
+    <footer class="footer-bar">
+ 
+        <div class="footer-left">
 
+
+      <img src="logo-wildgreenschool.png"></img>
+
+
+            <h3>Wild Green School</h3>
+
+            <p class="footer-links">
+                <a href="#">Formations</a>
+                |
+                <a href="#">le Campus</a>
+                |
+                <a href="#">Actus</a>
+                |
+                <a href="#">Contactez-nous</a>
+            </p>
+
+            <p class="school-rights">© 2020 Wild Green School. Tous droits réservé</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="adresse"></i>
+                  <p><span>4 avenue des Saules, bâtiment Le Doge,</span>  
+                    59160 Lille</p>
+            </div>
+
+            <div>
+                <i class="telephone"></i>
+                <p>+33 6 42 44 83 97</p>
+            </div>
+            <div>
+                <i class="email"></i>
+                <p><a href="mailto:support@eduonix.com">support@wildgreenschool.fr</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="Horaires">
+                <span>Horaires :</span>
+                lundi	    09:00–18:00<br/>
+            mardi	    09:00–18:00<br/>
+            mercredi	09:00–18:00<br/>
+            jeudi	    09:00–18:00<br/>
+            vendredi	09:00–18:00<br/>
+            samedi et dimanche	    Fermé
+                </p>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                <div class="icon-social">
+                <div id="social-test">
+                  
+                    <ul class="social">
+                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-twitter" aria-hidden="true"></i>
+                        </li>
+                        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-youtube" aria-hidden="true"></i>
+                        </li>
+                        <li><i class="fa fa-github" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </li>
+                    
+                    </ul>
+                </div>
+                  </div>
+        </div>
     </footer>
 
 </body>

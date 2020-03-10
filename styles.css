@@ -1,3 +1,202 @@
+header, nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    padding: 0;
+}
+.logo {
+    width: 60%;
+}
+
+button {
+    background-color: #8DB54B;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+ 
+.footer-bar{
+	background-color: rgb(14, 15, 13);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-bar .footer-left,
+.footer-bar .footer-center,
+.footer-bar .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-bar .footer-left{
+	width: 30%;
+}
+ 
+.footer-bar h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+/* school logo */
+ 
+.footer-bar .footer-left img{
+    width: 40%;
+    margin-bottom: 20px;
+}
+ 
+.footer-bar h3 {
+	color:  #F2F5BD;
+}
+ 
+/* Footer links */
+ 
+.footer-bar .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+ 
+.footer-bar .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-bar .school-rights{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-bar .footer-center{
+    width: 35%;
+    margin-top:  70px;
+}
+ 
+ 
+.footer-bar .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+    vertical-align: middle;
+    margin-left: 130px;
+}
+ 
+.footer-bar .footer-center i.email{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-bar .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-bar .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-bar .footer-center p a{
+	color:  #F2F5BD;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-bar .footer-right{
+	width: 30%;
+}
+ 
+.footer-bar .Horaires{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+    margin-top:  60px;
+    margin-left: 150px;
+}
+ 
+.footer-bar .Horaires span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+/* social media icons */
+
+.icon-social {
+    display: table;
+    width: 100%;
+    
+    margin-top: 0px;
+  }
+  
+  #social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;}
+    
+.social {
+    padding-left: 0px;
+}
+.social li {
+    color: rgba(167, 146, 129, 0.6);
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(167, 146, 129, 0.4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+}
+.social li:hover {
+    color: rgba(167, 146, 129, 1);
+    border: 1px solid rgba(167, 146, 129, 1);
+}
+  
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  }
 
 header, nav {
     display: flex;
@@ -53,23 +252,26 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    text-align: center;
 }
 
-.green {
-    color: #8DB54B;
-}
 
+
+
+/* CSS CAMPUS ------------------- */
 .campus {
     text-align: center;
     background-color: #F6F6F4;
     padding: 2em 0em 2em 0em;
 }
 
-.espcampus {
+.green {
+    color: #8DB54B;
+}
 
+.espcampus {
     display: flex;
     justify-content: center;
-
 }
 
 .bloccampus {
@@ -127,4 +329,155 @@ form input{
     width: auto;
     background-color: white;
 }
-/**** Fin section contact ****/
+
+/* Fin section contact */
+
+/* ----------------- ACTUS ------------------- */
+
+.actus h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.actus h2 span {
+    color:#8DB54B;
+}
+
+.actu-container {
+    display: flex;
+}
+
+span.date {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 23%;
+    color: white;
+    background:black;
+    padding: 10px 10px;
+    text-align: center;
+    min-width: 70px;
+ }
+
+ span .date-chiffre {
+     font-size: 30px;
+ }
+
+.left-section {
+    display: flex;
+    position: relative;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.left-section img {
+    margin-right:0;
+}
+
+.right-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+
+.right-section {
+    flex-direction: column;
+    width: 50%;
+    margin-left:15px;
+}
+
+.img1, .img2, .img3 {
+    display: flex;
+    align-items: center;
+}
+
+.right-section p {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.right-section p a {
+    color:#8DB54B;
+}
+
+/* ----------------- Actus Media Query ------------------- */
+
+@media screen and (max-width: 961px) {
+
+.actu-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+span.date {
+    top: 0%;
+    left: 0%;
+}
+
+.left-section, .right-section {
+    margin:0;
+}
+
+.left-section {
+    margin-bottom: 30px;
+}
+
+.right-section h3 {
+text-align: center;
+}
+
+.right-section p {
+    width: 65%;
+}
+}
+
+/* ----------------- FIN ACTUS ------------------- */
+/* CSS FORMATIONS ------------------- */
+
+.formations {
+    text-align: center;
+
+}
+
+.formations h3 {
+    text-transform: uppercase;
+
+}
+
+.pformations {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.articlesformation {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+article {
+
+
+    width: 22em;
+    margin: 2em auto 3em auto;
+    background-color: #F6F6F4;
+}
+
+article p {
+    
+    margin: auto 1em 2em 1em;
+}
+
+.voirformation {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
