@@ -2,6 +2,7 @@
 header, nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -14,6 +15,8 @@ ul {
 }
 .logo {
     width: 60%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 button {
@@ -24,17 +27,22 @@ button {
 }
 
 .carousel {
-    color: #8DB54B;
     height: 350px;
-    margin: auto;
-    background-image: url(Images/carousel.png);
+    background: url(Images/carousel.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
 }
 
+.carousel h1, .carousel h2 {
+    margin-left: 2%;
 }
-
 h1 {
-    font-size: 100px;
-    padding: 6px;
+    color: #8DB54B;
 }
 
 h2 {
