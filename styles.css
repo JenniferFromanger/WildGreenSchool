@@ -75,3 +75,43 @@ h2 {
 .h3campus {
     height: 50px;
 }
+
+/* section contact */
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6F6F4;
+}
+
+.contact h2{
+    padding: 15px;
+    text-align: center;
+}
+form{
+    width: 450px;
+}
+form button{
+    border-radius: 2px;
+    align-self: flex-end;
+    background-color: #8DB54B;
+    border-color: lightgrey;
+    padding: 5px 12px 5px 12px;
+    color: white;
+
+}
+form textarea{
+    border: 1px solid #8DB54B;
+    border-radius: 10px;
+}
+form input{
+    border-radius: 5px;
+}
+#plan{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+}
+/* Fin section contact */
