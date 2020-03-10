@@ -8,12 +8,12 @@
     src: url('font/TNanti-Demo.otf');
 }
 
-/* ----------------- HEADER ------------------- */
-
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin:0;
 }
 
+/* ----------------- HEADER ------------------- */
 
 header, nav {
     display: flex;
@@ -21,13 +21,25 @@ header, nav {
     align-items: center;
 }
 
-nav {
-    width: 30%;
-}
-
-ul {
+nav ul {
     padding: 0;
     text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    padding-right: 1.5em;
+}
+
+nav li:hover {
+    color: #8DB54B;
+    transition: color .3s;
+    cursor: pointer;
+  }
+
+.button-nav {
+    margin: 0 2em 0 0;
 }
 
 .logo {
@@ -42,18 +54,23 @@ ul {
     margin: 1vw;
 }
 
-button {
-    background-color: #8DB54B;
-    padding: 7px 20px;
-    margin: 10px;
-    border:none;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
+.baseline-description {
+    color:white;
+    font-size: 30px;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+.baseline-wild {
+    color:white;
+    font-family: 'TNanti-Demo';
+    font-size: 5em;
+    text-decoration: underline;
+    padding-left: 50px;
 }
 
 .carousel {
-    height: 500px;
+    height: 700px;
     background: url(Images/carousel.png);
     background-size: cover;
     width: 100%;
@@ -64,14 +81,17 @@ button {
     justify-content: center;
 }
 
-.carousel h1, .carousel h2 {
-    margin-left: 2%;
-}
-h1 {
-    color: #8DB54B;
+button {  /* Personnalisation de tous les bouttons de la page */
+    background-color: #8DB54B;
+    padding: 7px 20px;
+    margin: 10px;
+    border:none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-h2 {
+h2 {  /* Personnalisation de tous les h2 de la page */
     text-transform: uppercase;
     text-align: center;
     font-size: 40px;
@@ -80,8 +100,54 @@ h2 {
     font-family: 'TNanti-Demo';
 }
 
+/* ----------------- FORMATIONS ------------------- */
 
-/* ----------------- CSS CAMPUS ------------------- */
+.formations {
+    text-align: center;
+
+}
+
+.formations h3 {
+    font-size: 2.3em;
+    font-family: 'JennaSue';
+    margin: 18px 0;
+
+}
+
+.pformations {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.articlesformation {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+article {
+    width: 22em;
+    margin: 2em auto 3em auto;
+    background-color: #F6F6F4;
+}
+
+article p {
+    
+    margin: auto 1em 2em 1em;
+}
+
+.voirformation {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+/* ----------------- CAMPUS ------------------- */
 
 .campus {
     text-align: center;
@@ -110,49 +176,11 @@ h2 {
     font-size: 1.8em;
 }
 
-/* -----------------  section contact ------------------- */
-
-.contact{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F6F6F4;
-}
-
-.contact h2{
-    padding: 15px;
-    text-align: center;
-}
-form{
-    width: 450px;
-}
-form button{
-    border-radius: 2px;
-    align-self: flex-end;
-    background-color: #8DB54B;
-    border-color: lightgrey;
-    padding: 5px 12px 5px 12px;
-    color: white;
-
-}
-form textarea{
-    border: 1px solid #8DB54B;
-    border-radius: 10px;
-}
-form input{
-    border-radius: 5px;
-}
-#plan{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
-    width: 50%;
-    background-color: white;
-}
-/* Fin section contact */
-
 /* ----------------- ACTUS ------------------- */
 
-
+.actus {
+    padding-bottom: 60px;
+}
 .actus h2 span {
     color:#8DB54B;
 }
@@ -215,49 +243,41 @@ span.date {
     color:#8DB54B;
 }
 
-/* CSS FORMATIONS ------------------- */
+/* ----------------- CONTACT ------------------- */
 
-.formations {
-    text-align: center;
-
-}
-
-.formations h3 {
-    font-size: 2.3em;
-    font-family: 'JennaSue';
-    margin: 18px 0;
-
-}
-
-.pformations {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-.articlesformation {
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
-article {
-    width: 22em;
-    margin: 2em auto 3em auto;
+.contact{
+    display: flex;
+    justify-content: space-evenly;
     background-color: #F6F6F4;
 }
 
-article p {
-    
-    margin: auto 1em 2em 1em;
+.contact h2{
+    padding: 15px;
+    text-align: center;
 }
+form{
+    width: 450px;
+}
+form button{
+    border-radius: 2px;
+    align-self: flex-end;
+    background-color: #8DB54B;
+    border-color: lightgrey;
+    padding: 5px 12px 5px 12px;
+    color: white;
 
-.voirformation {
+}
+form textarea{
+    border: 1px solid #8DB54B;
+    border-radius: 10px;
+}
+form input{
+    border-radius: 5px;
+}
+#plan{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 50%;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
 }
