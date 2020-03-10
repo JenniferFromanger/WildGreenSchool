@@ -18,6 +18,12 @@ ul {
     display: flex;
     justify-content: flex-start;
 }
+.logo img {
+    width: 10vw;
+    height: 3vw;
+    margin: 1vw;
+
+}
 
 button {
     background-color: #8DB54B;
@@ -27,7 +33,7 @@ button {
 }
 
 .carousel {
-    height: 350px;
+    height: 500px;
     background: url(Images/carousel.png);
     background-size: cover;
     width: 100%;
