@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
  
 .footer-bar{
 	background-color: rgb(14, 15, 13);
@@ -177,7 +176,6 @@
   .social:hover > li:hover {
     opacity: 1;
   }
-=======
 header, nav {
     display: flex;
     justify-content: space-between;
@@ -404,4 +402,3 @@ text-align: center;
 }
 
 /* ----------------- FIN ACTUS ------------------- */
->>>>>>> fae5f794c8c0f08e752bfe48626c22ea4e92b7f6
