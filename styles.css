@@ -56,6 +56,7 @@ button {
 .footer-bar .footer-left img{
     width: 40%;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
  
 .footer-bar h3 {
@@ -158,8 +159,8 @@ button {
 .icon-social {
     display: table;
     width: 100%;
-    
     margin-top: 0px;
+    
   }
   
   #social-test {
