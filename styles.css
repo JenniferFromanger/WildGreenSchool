@@ -20,3 +20,153 @@ button {
     border-radius: 15px;
     padding: 6px;
 }
+
+ 
+.footer-bar{
+	background-color: #9EC278;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-bar .footer-left,
+.footer-bar .footer-center,
+.footer-bar .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-bar .footer-left{
+	width: 30%;
+}
+ 
+.footer-bar h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+/* school logo */
+ 
+.footer-bar .footer-left img{
+	width: 30%;
+}
+ 
+.footer-bar h3 {
+	color:  #F2F5BD;
+}
+ 
+/* Footer links */
+ 
+.footer-bar .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+ 
+.footer-bar .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-bar .school-rights{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-bar .footer-center{
+	width: 35%;
+}
+ 
+ 
+.footer-bar .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-bar .footer-center i.email{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-bar .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-bar .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-bar .footer-center p a{
+	color:  #F2F5BD;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-bar .footer-right{
+	width: 30%;
+}
+ 
+.footer-bar .Horaires{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-bar .Horaires span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-bar .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-bar .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
