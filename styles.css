@@ -61,6 +61,8 @@ h2 {
 
 .campus {
     text-align: center;
+    background-color: #F6F6F4;
+    padding: 2em 0em 2em 0em;
 }
 
 .espcampus {
@@ -79,5 +81,3 @@ h2 {
 .h3campus {
     height: 50px;
 }
-
-
