@@ -69,29 +69,30 @@
     <section class="campus">
         <h2>Un campus <span class="green">green</span></h2>
 
-        <p>Wild Green School est un campus éco-responsable, respectueux des hommes et de l'environnement. Nous nous engageons auprès de trois causes :</p>
+        <p class="pcampus">Wild Green School est un campus éco-responsable, respectueux des hommes et de l'environnement. Nous nous engageons auprès de trois causes :</p>
 
         <div class= "espcampus">
 
         <div class="bloccampus">
-            <img src="Images/energie.png" alt="énergie renouvelable"></br>
+            <img src="Images/energie.png" width="100" alt="énergie renouvelable"></br>
             <h3 class="h3campus">100% énergie renouvelable</h3>
             <p class="pcampus">Nous produisons notre propre électricité grâce à une éolienne située sur le toit du campus.</p>
         </div>
         
         <div class="bloccampus">
-        <img src="Images/faitmaison.png" alt="bio fait maison"></br>
+        <img src="Images/faitmaison.png" width="100" alt="bio fait maison"></br>
         <h3 class="h3campus">Bio et</br> fait-maison</h3>
         <p class="pcampus">Nos repas, savons et produits d'entretien sont créés par nos soins avec des ingrédients bio et naturels.</p>
      </div>
 
     <div class="bloccampus">
-        <img src="Images/dechet.png" alt="zero dechet"></br>
+        <img src="Images/dechet.png" width="100" alt="zero dechet"></br>
         <h3 class="h3campus">Zéro</br> déchet</h3>
         <p class="pcampus">Qui sort les poubelles ? Pas besoin de sortir les poubelles car nous ne produisons aucun déchet.</p>
     </div>
 </div>
 </section>
+
 
 <section class="actus">
     <h2>Actus<span>'</span></h2>
@@ -122,28 +123,36 @@
     </div>
 </section>
    
+>>>>>>> 2aa1c871c383135ceea5ff2194be1a872151e206
     <section class="contact">
-        <form id="contact_form" action="#" method="POST">
-            <h2>Contact'</h2>
-            <div class="row">
-                <label class="required" for="name">Nom :</label><br />
-                <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
-            </div>
-        <div class="row">
-            <label class="required" for="email">Mail :</label><br />
-            <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
-        </div>
-        <div class="row">
-            <label class="required" for="message">Votre message :</label><br />
-            <textarea id="message" class="input" name="message" rows="8" cols="40"></textarea><br />
-        </div>
-        <button type="submit" id="submit_button" value="Envoyer">Envoyer</button>
-        </form>
+        <h2>Contact'</h2>
+        <div class="contact-container">
+            <form id="contact_form" action="#" method="POST">
+                <div class="row">
+                    <label class="required" for="name">Nom :</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+                    <label class="required" for="name">Prénom :</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+                </div>
+                <div class="row">
+                    <label class="required" for="email">Mail :</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+                </div>
+                <select name="text">
+                    <option>Professionnel</option>
+                    <option>Particulier</option>
+                </select>
+                <div class="row">
+                <!--  <label class="required" for="message">Votre message :</label><br /> -->
+                <textarea id="message" class="input" name="message" rows="8" cols="40">Votre message...</textarea><br />
+                </div>
+                <button type="submit" id="submit_button" value="Envoyer">Envoyer</button>
+            </form>
         <div id="plan">
-            <p>
-                Pour nous trouver
-            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.33404501854267!2d3.0185770526901656!3d50.63320304734935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55c63d0d77d%3A0x6986c08acba25607!2sWild%20Code%20School%20-%20Formation%20D%C3%A9veloppeur%20Web%20et%20Data%20Analyst!5e0!3m2!1sfr!2sfr!4v1583843097215!5m2!1sfr!2sfr" 
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
+    </div>
     </section>
 
     <footer class="footer-bar">
