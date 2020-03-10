@@ -269,15 +269,27 @@ h2 {
     color: #8DB54B;
 }
 
+.pcampus {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .espcampus {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bloccampus {
     width: 250px;
     margin: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    flex-wrap: wrap;
 }
 
 .h3campus {
@@ -481,3 +493,4 @@ article p {
     justify-content: center;
     margin-top: 2em;
 }
+
