@@ -47,23 +47,26 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    text-align: center;
 }
 
-.green {
-    color: #8DB54B;
-}
 
+
+
+/* CSS CAMPUS ------------------- */
 .campus {
     text-align: center;
     background-color: #F6F6F4;
     padding: 2em 0em 2em 0em;
 }
 
-.espcampus {
+.green {
+    color: #8DB54B;
+}
 
+.espcampus {
     display: flex;
     justify-content: center;
-
 }
 
 .bloccampus {
@@ -74,4 +77,51 @@ h2 {
 
 .h3campus {
     height: 50px;
+}
+
+/* CSS FORMATIONS ------------------- */
+
+.formations {
+    text-align: center;
+
+}
+
+.formations h3 {
+    text-transform: uppercase;
+
+}
+
+.pformations {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.articlesformation {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+article {
+
+
+    width: 22em;
+    margin: 2em auto 3em auto;
+    background-color: #F6F6F4;
+}
+
+article p {
+    
+    margin: auto 1em 2em 1em;
+}
+
+.voirformation {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }
