@@ -37,11 +37,12 @@ nav ul {
     display: flex;
 }
 
-nav li {
+nav li a {
     padding-right: 1.5em;
+    color: black;
 }
 
-nav li:hover {
+nav li a:hover {
     color: #8DB54B;
     transition: color .3s;
     cursor: pointer;
