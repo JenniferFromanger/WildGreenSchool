@@ -162,6 +162,7 @@ article p {
 .espcampus {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bloccampus {
@@ -188,6 +189,7 @@ article p {
 .actu-container {
     display: flex;
 }
+
 
 span.date {
     display: block;
