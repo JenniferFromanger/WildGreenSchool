@@ -296,7 +296,8 @@ h2 {
     height: 50px;
 }
 
-/**** section contact ****/
+/****>>>>>>>>>>>>>> section contact <<<<<<<<<<<<<<****/
+
 
 .contact{
     background-color: #F6F6F4;
@@ -313,6 +314,7 @@ form{
     /*width: 450px;*/
     display: flex;
     flex-direction: column;
+    background: #f4f7f8;
 }
 form button{
     border-radius: 2px;
@@ -324,11 +326,18 @@ form button{
 }
 form textarea{
     border: 1px solid #8DB54B;
-    border-radius: 10px;
-    width: 400px;
+    border-radius: 5px;
+    width: 100%;
+    outline-color: aqua;
 }
 form input{
     border-radius: 5px;
+}
+.test{
+    outline-color: aqua;
+}
+.required{
+    color: lightgreen;
 }
 #message{
     padding: 5px;
