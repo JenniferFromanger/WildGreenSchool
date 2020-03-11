@@ -469,3 +469,107 @@ form input{
   .social:hover > li:hover {
     opacity: 1;
   }
+
+
+/* --------- PAGE FORMATIONS ----------- */
+
+.liststylenone {
+    list-style: none;
+}
+
+.carouselformation {
+    height: 350px;
+    background: url(Images/carousselformation.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.baselineformations {
+    color:white;
+    font-family: 'TNanti-Demo';
+    font-size: 5em;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+}
+
+.introformations {
+    width: 80%;
+    text-align: center;
+    margin: 4em auto;
+}
+
+.imgformation {
+
+    margin: auto 3em;
+}
+
+.bloctxtformation {
+    width: 60em;
+
+}
+
+/* formation ruche */
+
+.formationruche {
+    text-align: center;
+    background-color: #F6F6F4;
+    padding: 0.8em 0em 2em 0em;
+}
+
+
+.blocformationruche {
+    width: 55%;
+    height: 420px;
+    text-align: left;
+    margin: 3em auto;
+    display: flex;
+
+}
+
+
+
+
+/* formation potager */
+
+.formationpotager {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 0.8em 0em 2em 0em;
+}
+
+.blocformationpotager {
+    width: 55%;
+    height: auto;
+    text-align: left;
+    margin: 3em auto;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+
+/* formation lombric */
+
+
+.formationruche {
+    text-align: center;
+    background-color: #F6F6F4;
+    padding: 0.8em 0em 2em 0em;
+}
+
+
+.blocformationruche {
+    width: 55%;
+    height: 420px;
+    text-align: left;
+    margin: 3em auto;
+    display: flex;
+
+}
+
