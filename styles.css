@@ -305,6 +305,8 @@ h2 {
 .contact-container{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+
 }
 .contact h2{
     padding: 15px;
@@ -314,7 +316,9 @@ form{
     /*width: 450px;*/
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: #f4f7f8;
+    
 }
 form button{
     border-radius: 2px;
@@ -331,13 +335,14 @@ form textarea{
     outline-color: aqua;
 }
 form input{
+    line-height: 2;
     border-radius: 5px;
 }
 .test{
     outline-color: aqua;
 }
 .required{
-    color: lightgreen;
+    color: rgb(21, 22, 21);
 }
 #message{
     padding: 5px;
