@@ -109,7 +109,9 @@ h2 {  /* Personnalisation de tous les h2 de la page */
     margin: 40px 0;
     font-family: 'TNanti-Demo';
 }
-
+#responsive_menu {
+    display: none;
+}
 /* ----------------- FORMATIONS ------------------- */
 
 .formations {
