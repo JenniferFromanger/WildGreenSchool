@@ -30,19 +30,19 @@ header, nav {
     align-items: center;
 }
 
-nav ul {
+#global_header nav ul {
     padding: 0;
     text-transform: uppercase;
     list-style-type: none;
     display: flex;
 }
 
-nav li a {
+#global_header nav li a {
     padding-right: 1.5em;
     color: black;
 }
 
-nav li a:hover {
+#global_header nav li a:hover {
     color: #8DB54B;
     transition: color .3s;
     cursor: pointer;
