@@ -4,16 +4,55 @@
 @media screen and (max-width: 961px) {
 
 /* ----------------- Header------------------- */ 
-    nav {
+    #global_header {
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        padding: 15px 0;
+    }
+    #global_header nav {
         display: none;
     }
 
     #hamburger {
-        display: block;
-        height: 2vw;
-        width: 2vw;
+        display: flex;
+    }
+    .logo {
+        width: 10%;
     }
 
+    .align-menu {
+        display: flex;
+        justify-content: flex-start;
+    }
+/* ----------------- Burger Menu------------------- */ 
+    #responsive_menu {
+        position: fixed;
+        height: 100%;
+        width: 18%;
+        background-color: black;
+        margin-top: 73px;
+    }
+    #responsive_menu nav {
+ 
+    }
+    #responsive_menu nav ul {
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+    #responsive_menu nav ul li {
+        border: 1px solid black;
+        margin-bottom: 4px;
+        padding: 5px 10px;
+        background-color: #8DB54B;
+    }
+    #responsive_menu nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+
+    }
 /* ----------------- Actus ------------------- */
     .actu-container{
         flex-direction: column;
