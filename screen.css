@@ -27,6 +27,7 @@
     }
 /* ----------------- Burger Menu------------------- */ 
     #responsive_menu {
+        display: block;
         position: fixed;
         height: 100%;
         width: 18%;
