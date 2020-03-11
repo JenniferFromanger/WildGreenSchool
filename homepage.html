@@ -12,16 +12,18 @@
 
 <body>
     <header>
-
+        <div id="hamburger">
+            <img src="Images/hamburger.png" alt="menu de navigation" />
+        </div>
         <div class="logo">
             <img src="Images/logoWGS.png" alt="logo" />
         </div>
         <nav>
             <ul>
-                <li>Formations</li>
-                <li>Le Campus</li>
-                <li>Actus</li>
-                <li>Contact</li>
+                <li><a href="#Formation">Formations</a></li>
+                <li><a href="#leCampus">Le Campus</a></li>
+                <li><a href="#Lactus">Actus</a></li>
+                <li><a href="#ContactUs">Contact</a></li>
             </ul>
         </nav>
         <button class="button-nav" type="submit">Je candidate</button>
@@ -32,7 +34,7 @@
         <div class="baseline-description">Ta planète, tu la veux bleue ou à point ?</div>
     </div>
 
-    <section class="formations">
+    <section class="formations" id="Formation">
 
         <h2>Nos formations</h2>
 
@@ -65,7 +67,7 @@
     </div>
     </section>
 
-    <section class="campus">
+    <section class="campus" id="leCampus">
         <h2>Un campus <span class="green">green</span></h2>
         <p class="pcampus">Wild Green School est un campus éco-responsable, respectueux des hommes et de l'environnement. </br>Nous nous engageons auprès de trois causes :</p>
 
@@ -92,7 +94,7 @@
 </section>
 
 
-<section class="actus">
+<section class="actus" id="Lactus">
     <h2>Actus<span>'</span></h2>
     <div class="actu-container">
         <div class="left-section">
@@ -120,7 +122,7 @@
         </div>
     </div>
 </section>
-    <section class="contact">
+    <section class="contact" id="ContactUs">
         <h2>Contact'</h2>
         <div class="contact-container">
             <form id="contact_form" action="#" method="POST">
