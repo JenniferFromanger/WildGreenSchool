@@ -14,7 +14,9 @@ ul {
 .logo {
     width: 60%;
 }
-
+#hamburger {
+    display: none;
+}
 button {
     background-color: #8DB54B;
     border-radius: 15px;

@@ -1,9 +1,20 @@
 /* ----------------- Media Query ------------------- */
 
-/* ----------------- Actus ------------------- */
 
 @media screen and (max-width: 961px) {
 
+/* ----------------- Header------------------- */ 
+    nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        height: 2vw;
+        width: 2vw;
+    }
+
+/* ----------------- Actus ------------------- */
     .actu-container{
         flex-direction: column;
         align-items: center;
@@ -29,4 +40,5 @@
     .right-section p {
         width: 65%;
     }
+
     }
