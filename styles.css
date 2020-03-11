@@ -13,6 +13,7 @@ body {
     margin:0;
 }
 
+
 #hamburger {
     display: none;
 }
@@ -199,7 +200,6 @@ button {
   .social:hover > li:hover {
     opacity: 1;
   }
-
 
 header, nav {
     display: flex;
