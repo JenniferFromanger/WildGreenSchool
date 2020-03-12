@@ -255,44 +255,102 @@ span.date {
     color:#8DB54B;
 }
 
-/* ----------------- CONTACT ------------------- */
+/**********************************************************************/
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Début section contact */
+/**********************************************************************/
 
-.contact{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F6F6F4;
+.contact {
+    background-color: rgb(211, 211, 211);
+   /* background: url(Images/background-contact.jpg); 
+    background-size: cover;*/
 }
 
-.contact h2{
+.contact-container {
+    display: flex;
+    justify-content: center;    
+}
+
+
+.contact h2 {
     padding: 15px;
     text-align: center;
 }
-form{
-    width: 450px;
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 189, 189);
+    padding-top: 20px;
+    margin-bottom: 20px;
+   /* box-shadow: 5px 5px 5px rgb(0, 0, 0); */
 }
-form button{
-    border-radius: 2px;
-    align-self: flex-end;
-    background-color: #8DB54B;
-    border-color: lightgrey;
-    padding: 5px 12px 5px 12px;
-    color: white;
+
+form input {
+    border: none;
+    margin: 10px auto;
+    width: 90%;
+    line-height: 3;
+    color: rgb(24, 24, 24);
+    outline-color: indigo;
 
 }
-form textarea{
-    border: 1px solid #8DB54B;
-    border-radius: 10px;
+
+input, textarea {
+    padding-left: 2px;
+
 }
-form input{
-    border-radius: 5px;
+
+input:focus {
+    background-color: rgb(240, 240, 240);
 }
-#plan{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
-    width: 50%;
-    background-color: white;
+
+.required {
+    color: rgb(21, 22, 21);
 }
+
+form textarea {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#message {
+    padding-left: 2px;
+    color: rgb(24, 24, 24);
+
+}
+
+.bouton {
+    margin: 25px auto;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 12px 5px 12px;
+    color: rgb(0, 0, 0);
+
+}
+
+.select-style {
+    margin: 15px auto;
+    width: 90%;
+    height: 40px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+/*======================================= */
+#plan {
+    border-top: 2px solid rgb(78, 78, 78);
+    width: auto;
+}
+
+/********************************************************************/
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Fin section contact */
+/********************************************************************/
+
  /* ----------------- FOOTER ------------------- */
 .footer-bar{
 	background-color: rgb(14, 15, 13);
@@ -534,9 +592,6 @@ form input{
     display: flex;
 
 }
-
-
-
 
 /* formation potager */
 
