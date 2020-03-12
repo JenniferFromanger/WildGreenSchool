@@ -12,9 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
     font-size: 1.1em;
-    line-height: 1.5em;
 }
-
 
 #hamburger {
     display: none;
@@ -394,6 +392,9 @@ form textarea {
 .footer-bar .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
+}
+.footer-bar .footer-links a:hover{
+    color: rgb(5, 190, 5);
 }
  
 .footer-bar .footer-links a{
