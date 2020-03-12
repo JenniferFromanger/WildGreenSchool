@@ -17,12 +17,6 @@ body {
 #hamburger {
     display: none;
 }
-button {
-    background-color: #8DB54B;
-    border-radius: 15px;
-    padding: 6px;
-}
-
 
 header, nav {
     display: flex;
@@ -37,9 +31,15 @@ header, nav {
     display: flex;
 }
 
+#desktop_header {
+    display: flex;
+    margin-right: 10px;
+}
+
 #global_header nav li a {
     padding-right: 1.5em;
     color: black;
+    text-decoration: none;
 }
 
 #global_header nav li a:hover {
@@ -47,10 +47,6 @@ header, nav {
     transition: color .3s;
     cursor: pointer;
   }
-
-.button-nav {
-    margin: 0 2em 0 0;
-}
 
 .logo {
     width: 60%;
@@ -99,6 +95,12 @@ button {  /* Personnalisation de tous les bouttons de la page */
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    width: 150px;
+    transition: width .3s;
+}
+
+button:hover {
+    width: 180px;
 }
 
 h2 {  /* Personnalisation de tous les h2 de la page */
