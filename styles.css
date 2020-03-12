@@ -341,6 +341,9 @@ form input{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 }
+.footer-bar .footer-links a:hover{
+    color: rgb(5, 190, 5);
+}
  
 .footer-bar .footer-links a{
 	display:inline-block;
