@@ -532,6 +532,29 @@ form textarea {
     opacity: 1;
   }
 
+  /*---------- Fotter Mobile --------*/
+
+  @media screen and (max-width: 961px) {
+    .footer-bar .footer-left,
+    .footer-bar .footer-right,
+    .footer-bar .footer-center,
+    .footer-bar .Horaires span
+     {
+        
+        width:500px;
+ height:500px;
+ margin:0 auto;
+ background:#f7f7f7;
+ position:absolute;
+ left:50%;
+ top:50%;
+ margin-left:-250px;
+ margin-top:-250px;
+    }
+    
+    
+  }
+
 
 /* --------- PAGE FORMATIONS ----------- */
 
