@@ -200,7 +200,6 @@ article p {
     display: flex;
 }
 
-
 span.date {
     display: block;
     position: absolute;
@@ -260,7 +259,7 @@ span.date {
 /**********************************************************************/
 
 .contact {
-    background-color: rgb(211, 211, 211);
+    background-color: #F6F6F4;
    /* background: url(Images/background-contact.jpg); 
     background-size: cover;*/
 }
@@ -270,17 +269,19 @@ span.date {
     justify-content: center;    
 }
 
-
 .contact h2 {
-    padding: 15px;
     text-align: center;
+}
+
+.pcontact {
+    text-align: center; 
 }
 
 form {
     width: 50%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(189, 189, 189);
+    background-color: #8DB54B;
     padding-top: 20px;
     margin-bottom: 20px;
    /* box-shadow: 5px 5px 5px rgb(0, 0, 0); */
@@ -292,7 +293,7 @@ form input {
     width: 90%;
     line-height: 3;
     color: rgb(24, 24, 24);
-    outline-color: indigo;
+    outline-color: #8DB54B;
 
 }
 
@@ -306,7 +307,7 @@ input:focus {
 }
 
 .required {
-    color: rgb(21, 22, 21);
+    color: rgb(24, 24, 24);
 }
 
 form textarea {
@@ -317,7 +318,6 @@ form textarea {
 #message {
     padding-left: 2px;
     color: rgb(24, 24, 24);
-
 }
 
 .bouton {
@@ -326,8 +326,7 @@ form textarea {
     background-color: rgb(255, 255, 255);
     border: none;
     padding: 5px 12px 5px 12px;
-    color: rgb(0, 0, 0);
-
+    color: #8DB54B;
 }
 
 .select-style {
@@ -337,13 +336,12 @@ form textarea {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     background: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
     position: relative;
-
 }
 
 /*======================================= */
 #plan {
-    border-top: 2px solid rgb(78, 78, 78);
     width: auto;
 }
 
