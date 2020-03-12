@@ -354,7 +354,7 @@ form textarea {
 }
  /* ----------------- FOOTER ------------------- */
 .footer-bar{
-	background-color: rgb(14, 15, 13);
+	background-color: rgb(28, 28, 28);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
@@ -402,6 +402,7 @@ form textarea {
 }
 .footer-bar .footer-links a:hover{
     color: rgb(5, 190, 5);
+    cursor: pointer;
 }
  
 .footer-bar .footer-links a{
@@ -670,3 +671,6 @@ form textarea {
 
 
 
+html {
+    scroll-behavior: smooth;
+  }
