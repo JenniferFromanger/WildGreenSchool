@@ -144,6 +144,10 @@ h2 {  /* Personnalisation de tous les h2 de la page */
 
 }
 
+.articlesformation article img {
+    width: 100%;
+}
+
 article {
     width: 22em;
     margin: 2em auto 3em auto;
