@@ -262,8 +262,9 @@ span.date {
 /* ----------------- CONTACT ------------------- */
 
 .contact {
+    background-image: url();
+    background-size: cover;
     background-color: #F6F6F4;
-    background-image: url(“https://www.transparenttextures.com/patterns/corrugation.png”);
 }
 
 .contact h2{
@@ -274,7 +275,6 @@ span.date {
 .contact-container {
     display: flex;
     justify-content: space-evenly;
-    background-color: #F6F6F4;
 }
 
 .pcontact {
