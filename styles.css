@@ -256,22 +256,20 @@ span.date {
 
 /* ----------------- CONTACT ------------------- */
 
-
 .contact {
     background-color: #F6F6F4;
-   /* background: url(Images/background-contact.jpg); 
-    background-size: cover;*/
+    background-image: url(“https://www.transparenttextures.com/patterns/corrugation.png”);
+}
+
+.contact h2{
+    margin: 0;
+    padding: 40px 0 20px 0;
 }
 
 .contact-container {
-
     display: flex;
     justify-content: space-evenly;
     background-color: #F6F6F4;
-}
-
-.contact h2 {
-    text-align: center;
 }
 
 .pcontact {
@@ -284,7 +282,7 @@ form {
     flex-direction: column;
     background-color: #8DB54B;
     padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
    /* box-shadow: 5px 5px 5px rgb(0, 0, 0); */
 }
 
@@ -295,12 +293,10 @@ form input {
     line-height: 3;
     color: rgb(24, 24, 24);
     outline-color: #8DB54B;
-
 }
 
 input, textarea {
     padding-left: 2px;
-
 }
 
 input:focus {
@@ -323,11 +319,17 @@ form textarea {
 
 .bouton {
     margin: 25px auto;
-    width: 60%;
+    width: 25%;
+    border-radius: 0px;
     background-color: rgb(255, 255, 255);
     border: none;
     padding: 5px 12px 5px 12px;
     color: #8DB54B;
+    transition: width .3s;
+}
+
+.bouton:hover{
+    width: 35%;
 }
 
 .select-style {
