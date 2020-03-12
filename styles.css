@@ -11,6 +11,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
+    font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 
@@ -475,7 +477,14 @@ form input{
 
 .liststylenone {
     list-style: none;
+    
 }
+
+.interligne {
+
+    line-height: 2em;
+}
+
 
 .carouselformation {
     height: 350px;
@@ -524,7 +533,7 @@ form input{
 
 .blocformationruche {
     width: 55%;
-    height: 420px;
+    height: auto;
     text-align: left;
     margin: 3em auto;
     display: flex;
@@ -564,12 +573,4 @@ form input{
 }
 
 
-.blocformationruche {
-    width: 55%;
-    height: 420px;
-    text-align: left;
-    margin: 3em auto;
-    display: flex;
-
-}
 
