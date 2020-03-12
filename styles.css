@@ -11,6 +11,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
+    font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 
@@ -254,9 +256,8 @@ span.date {
     color:#8DB54B;
 }
 
-/**********************************************************************/
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Début section contact */
-/**********************************************************************/
+/* ----------------- CONTACT ------------------- */
+
 
 .contact {
     background-color: #F6F6F4;
@@ -265,8 +266,10 @@ span.date {
 }
 
 .contact-container {
+
     display: flex;
-    justify-content: center;    
+    justify-content: space-evenly;
+    background-color: #F6F6F4;
 }
 
 .contact h2 {
@@ -344,11 +347,6 @@ form textarea {
 #plan {
     width: auto;
 }
-
-/********************************************************************/
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Fin section contact */
-/********************************************************************/
-
  /* ----------------- FOOTER ------------------- */
 .footer-bar{
 	background-color: rgb(14, 15, 13);
@@ -357,7 +355,7 @@ form textarea {
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
-	margin-top: 80px;
+	margin-top: 5px;
 }
  
 .footer-bar .footer-left,
@@ -489,7 +487,7 @@ form textarea {
     width: 100%;
     margin-top: 0px;
     position: relative ;
-    right: 30px;
+    right: 20px;
     
     
   }
@@ -504,23 +502,32 @@ form textarea {
     padding-left: 0px;
 }
 .social li {
-    color: rgb(0, 204, 0);
+    color: rgb(5, 190, 5);
     list-style-type: none;
     display: inline-block;
     width: 30px;
     height: 30px;
     line-height: 30px;
     padding: 1%;
-    border: 1px solid rgb(0, 204, 0);
+    border: 1px solid rgb(230, 240, 230);
     cursor: pointer;
     margin-left: 10px;
     margin-bottom: 20px;
     transition: ease .3s;
+    text-decoration:none;
+    color: inherit;
+    outline: none;
 }
 .social li:hover {
     color: rgb(0, 204, 0);
-    border: 1px solid rgb(0, 204, 0);
+    border: 1px solid rgb(230, 240, 230);
+    text-decoration:none;
+    
 }
+.social li a:link {
+    color:inherit;
+  }
+
   
   .social:hover > li {
     opacity: 0.5;
@@ -530,12 +537,42 @@ form textarea {
     opacity: 1;
   }
 
+  /*---------- Fotter Mobile --------*/
+
+  @media screen and (max-width: 961px) {
+    .footer-bar .footer-left,
+    .footer-bar .footer-right,
+    .footer-bar .footer-center,
+    .footer-bar .Horaires,
+    .footer-bar .Horaires span,
+    .footer-bar .footer-center i
+    
+     {
+        height:auto;
+        display:inline-block;
+        align-items: center;
+        text-align: center ;
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+    
+    
+  }
+
 
 /* --------- PAGE FORMATIONS ----------- */
 
 .liststylenone {
     list-style: none;
+    
 }
+
+.interligne {
+
+    line-height: 2em;
+}
+
 
 .carouselformation {
     height: 350px;
@@ -584,12 +621,15 @@ form textarea {
 
 .blocformationruche {
     width: 55%;
-    height: 420px;
+    height: auto;
     text-align: left;
     margin: 3em auto;
     display: flex;
 
 }
+
+
+
 
 /* formation potager */
 
@@ -621,12 +661,4 @@ form textarea {
 }
 
 
-.blocformationruche {
-    width: 55%;
-    height: 420px;
-    text-align: left;
-    margin: 3em auto;
-    display: flex;
-
-}
 

@@ -42,9 +42,57 @@
     }
 
 
+
 /********************************************/
 /************* SECTION CONTACT **************/
 /********************************************/
 
-}
 
+
+
+ 
+
+
+    /* ----------------- Page FORMATIONS ------------------- */
+
+
+    h2 {
+        line-height: 1.5em;
+    }
+
+    .blocformationpotager {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    
+    .blocformationruche {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imgformation {
+        margin: 0;
+    }
+
+    .bloctxtformation {
+        width: auto;
+
+    
+    }
+
+    .interligne {
+        padding: 0;
+        line-height: 2em;
+    }
+
+    .liststylenone {
+        padding: 0;
+        
+    }
+
+}
