@@ -11,8 +11,10 @@
 </head>
 
 <body>
+
     <header id="global_header">
         <div class="align-menu">
+
         <div id="hamburger">
             <img src="Images/hamburger.png" alt="menu de navigation" width="50px" />
         </div>
@@ -60,21 +62,21 @@
             <img src="Images/potager.png" alt="potager">
             <h3>Faire son potager</h3>
             <p>Faites pousser des fruits et légumes bio sans pesticides.</p>
-            <div class="voirformation"><button type="submit">Découvrir</button></div>
+            <div class="voirformation"><a href="formations.html#idformationpotager"><button type="submit">Découvrir</button></a></div>
         </article>
         
         <article>
             <img src="Images/ruche.png" alt="ruche">
             <h3>Creer sa ruche</h3>
             <p>Créez et installez votre propre ruche dans votre jardin.</p>
-            <div class="voirformation"><button type="submit">Découvrir</button></div>
+            <div class="voirformation"><a href="formations.html#idformationruche"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article>
             <img src="Images/lombric.png" alt="compostage">
             <h3>Lombric Compostage</h3>
             <p>Découvrez le lombricompostage avec des vers et recyclez vos déchets.</p>
-            <div class="voirformation"><button type="submit">Découvrir</button></div>
+            <div class="voirformation"><a href="formations.html#idformationcompost"><button type="submit">Découvrir</button></a></div>
         </article>
 
     </div>
@@ -136,34 +138,25 @@
     </div>
 </section>
     <section class="contact" id="ContactUs">
-        <h2>Contact'</h2>
+        <h2>Contact</h2>
         <div class="contact-container">
             <form id="contact_form" action="#" method="POST">
-                <div class="row">
-                    <label class="required" for="name">Nom :</label><br />
-                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
-                    <label class="required" for="name">Prénom :</label><br />
-                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
-                </div>
-                <div class="row">
-                    <label class="required" for="email">Mail :</label><br />
-                    <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
-                </div>
-                <select name="text">
+                <input class="input" name="name" type="text" value="" placeholder="NOM" />
+                <input class="input" name="name" type="text" value="" placeholder="PRÉNOM" />
+                <input id="email" class="input" name="email" type="text" value="" placeholder="EMAIL" />
+                <select name="text" class="select-style">
+                    <option>Catégorie</option>
                     <option>Professionnel</option>
                     <option>Particulier</option>
                 </select>
-                <div class="row">
-                <!--  <label class="required" for="message">Votre message :</label><br /> -->
-                <textarea id="message" class="input" name="message" rows="8" cols="40">Votre message...</textarea><br />
-                </div>
-                <button type="submit" id="submit_button" value="Envoyer">Envoyer</button>
+                <textarea id="message" class="required" name="message" rows="10" cols="40" placeholder="VOTRE MESSAGE..."></textarea>
+                <button type="submit" id="submit_button" value="Envoyer" class="bouton">Envoyer</button>
             </form>
-        <div id="plan">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.33404501854267!2d3.0185770526901656!3d50.63320304734935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55c63d0d77d%3A0x6986c08acba25607!2sWild%20Code%20School%20-%20Formation%20D%C3%A9veloppeur%20Web%20et%20Data%20Analyst!5e0!3m2!1sfr!2sfr!4v1583843097215!5m2!1sfr!2sfr" 
-            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-    </div>
+    </section>
+    <section id="plan">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.33404501854267!2d3.0185770526901656!3d50.63320304734935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55c63d0d77d%3A0x6986c08acba25607!2sWild%20Code%20School%20-%20Formation%20D%C3%A9veloppeur%20Web%20et%20Data%20Analyst!5e0!3m2!1sfr!2sfr!4v1583843097215!5m2!1sfr!2sfr" 
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </section>
 
     <footer class="footer-bar">
@@ -171,19 +164,19 @@
         <div class="footer-left">
 
 
-      <img src="logo-wildgreenschool.png"></img>
+      <a href="#align-menu" border="0"><img src="logo-wildgreenschool.png"> </a>
 
 
             
 
             <p class="footer-links">
-                <a href="#">Formations</a>
+                <a href="#Formation">Formations</a>
                 |
-                <a href="#">le Campus</a>
+                <a href="#leCampus">le Campus</a>
                 |
-                <a href="#">Actus</a>
+                <a href="#Lactus">Actus</a>
                 |
-                <a href="#">Contactez-nous</a>
+                <a href="#ContactUs">Contactez-nous</a>
             </p>
 
             <p class="school-rights">© 2020 Wild Green School. Tous droits réservé</p>
@@ -220,12 +213,10 @@
                 <div id="social-test">
                   
                     <ul class="social">
-                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-twitter" aria-hidden="true"></i>
-                        </li>
-                        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li ><a href="https://fr-fr.facebook.com/WildCodeSchool/" target="_blank"><i  class="fa fa-facebook" aria-hidden="true" ></i></a></li>
+                        <li ><a href="https://twitter.com/wildschoollille?lang=fr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li ><a href="https://www.instagram.com/wildcodeschool_lille/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         
-                        </li>
                     
                     </ul>
                 </div>
