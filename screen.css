@@ -8,7 +8,7 @@
         background-color: white;
         position: fixed;
         width: 100%;
-        padding: 15px 0;
+        padding: 11px 0;
     }
     #global_header nav {
         display: none;
@@ -16,6 +16,7 @@
 
     #hamburger {
         display: flex;
+        margin-left: 10px;
     }
     .logo {
         width: 10%;
@@ -31,22 +32,25 @@
         position: fixed;
         height: 100%;
         width: 18%;
-        background-color: black;
+        background-color: #282828;
         margin-top: 73px;
     }
     #responsive_menu nav {
- 
+        margin-top: 0;
     }
     #responsive_menu nav ul {
         list-style: none;
-        padding: 0;
+        padding: 2px 0 0 0;
         width: 100%;
+        margin-top: 0;
     }
     #responsive_menu nav ul li {
-        border: 1px solid black;
+        border-bottom: 2px solid #8DB54B;
         margin-bottom: 4px;
         padding: 5px 10px;
-        background-color: #8DB54B;
+    }
+    #responsive_menu nav ul a:hover {
+        color: #8DB54B;
     }
     #responsive_menu nav ul li a {
         text-decoration: none;
