@@ -266,9 +266,7 @@ span.date {
 /* ----------------- CONTACT ------------------- */
 
 .contact {
-    background-image: url();
-    background-size: cover;
-    background-color: #F6F6F4;
+    background: url('Images/beanstalk.png');
 }
 
 .contact h2{
@@ -290,23 +288,25 @@ form {
     width: 50%;
     display: flex;
     flex-direction: column;
-    background-color: #8DB54B;
     padding-top: 20px;
     margin-bottom: 80px;
    /* box-shadow: 5px 5px 5px rgb(0, 0, 0); */
 }
 
 form input {
-    border: none;
+    border: 1.5px solid #8DB54B;
     margin: 10px auto;
     width: 90%;
     line-height: 3;
     color: rgb(24, 24, 24);
     outline-color: #8DB54B;
+    background-color: white;
 }
 
 input, textarea {
     padding-left: 2px;
+    background-color:  white;
+    border: 1.5px solid #8DB54B;
 }
 
 input:focus {
@@ -320,6 +320,7 @@ input:focus {
 form textarea {
     margin: 0 auto;
     width: 90%;
+    outline-color: #8DB54B;
 }
 
 #message {
@@ -331,10 +332,10 @@ form textarea {
     margin: 25px auto;
     width: 25%;
     border-radius: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color:#8DB54B;
     border: none;
     padding: 5px 12px 5px 12px;
-    color: #8DB54B;
+    color:white;
     transition: width .3s;
 }
 
@@ -347,10 +348,11 @@ form textarea {
     width: 90%;
     height: 40px;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    background: rgb(255, 255, 255);
+    background-color:white;;
     color: rgb(24, 24, 24);
     position: relative;
+    border: 1.5px solid #8DB54B;
+    outline-color: #8DB54B;
 }
 
 /*======================================= */
