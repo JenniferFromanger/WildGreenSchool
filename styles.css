@@ -540,8 +540,8 @@ form textarea {
     text-decoration:none;
     
 }
-.social li a:link {
-    color:inherit;
+.social li a {
+    color: #8DB54B;
   }
 
   
