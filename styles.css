@@ -101,7 +101,7 @@ button {  /* Personnalisation de tous les bouttons de la page */
 }
 
 button:hover {
-<<<<<<< HEAD
+
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -109,9 +109,9 @@ button:hover {
 button:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-=======
+
     width: 180px;
->>>>>>> footer
+
 }
 
 h2 {  /* Personnalisation de tous les h2 de la page */
@@ -547,8 +547,8 @@ form textarea {
     width: 100%;
     margin-top: 0px;
     position: relative ;
-    right: 40px;
-    
+    left: 150px;
+
     
   }
   
@@ -560,6 +560,7 @@ form textarea {
     
 .social {
     padding-left: 0px;
+    display: inline-flex;
 }
 .social li {
     color: rgb(5, 190, 5);
