@@ -361,7 +361,8 @@ form textarea {
 }
  /* ----------------- FOOTER ------------------- */
 .footer-bar{
-	background-image: url(/home/amjad/Desktop/green-school/WildGreenSchool/Images/mario-parente-YnHOIroyUYo-unsplash.jpg);
+    background-image: url(/home/amjad/Desktop/green-school/WildGreenSchool/Images/flower.jpg);
+    background-size: 400%;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
