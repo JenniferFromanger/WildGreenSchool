@@ -55,10 +55,8 @@ burgerButton.addEventListener('click', clickLink);
 var year= new Date().getFullYear();
 var date = `© ${year} Wild Green School. Tous droits réservé`;
 document.getElementsByClassName('school-rights')[0].innerHTML = date;
-
-//----------ZOOM-----------//
-
+//---------------------//
 
 
 
-        
+

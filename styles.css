@@ -97,17 +97,11 @@ button {  /* Personnalisation de tous les bouttons de la page */
     font-weight: bold;
     text-transform: uppercase;
     width: 150px;
-    height: 36px;
-    transition: s;
+    transition: width .3s;
 }
 
 button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-button:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
+    width: 180px;
 }
 
 h2 {  /* Personnalisation de tous les h2 de la page */
@@ -382,9 +376,6 @@ form textarea {
 	display: inline-block;
 	vertical-align: top;
 }
-
-
-
  
 /* Footer left */
  
