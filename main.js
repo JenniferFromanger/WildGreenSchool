@@ -5,3 +5,47 @@ function clickLink() {
 };
 
 burgerButton.addEventListener('click', clickLink);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//------------------------Fotter ---------------------------//
