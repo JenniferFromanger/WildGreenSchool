@@ -97,11 +97,11 @@ button {  /* Personnalisation de tous les bouttons de la page */
     font-weight: bold;
     text-transform: uppercase;
     width: 150px;
-    height: 36px;
-    transition: s;
+    transition: width .3s;
 }
 
 button:hover {
+<<<<<<< HEAD
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -109,6 +109,9 @@ button:hover {
 button:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+=======
+    width: 180px;
+>>>>>>> footer
 }
 
 h2 {  /* Personnalisation de tous les h2 de la page */
@@ -401,7 +404,8 @@ form textarea {
 }
  /* ----------------- FOOTER ------------------- */
 .footer-bar{
-	background-color: rgb(28, 28, 28);
+    background-image: url(/home/amjad/Desktop/green-school/WildGreenSchool/Images/flower.jpg);
+    background-size: 400%;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
