@@ -288,9 +288,9 @@ form {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 20px;
-    margin-bottom: 80px;
-   /* box-shadow: 5px 5px 5px rgb(0, 0, 0); */
+    margin-bottom: 60px;
 }
 
 form input {
@@ -354,6 +354,39 @@ form textarea {
     border: 1.5px solid #8DB54B;
     outline-color: #8DB54B;
 }
+/* ////////////////////////// POPUP ////////////////////////// */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+
+  .modal-inner {
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 30vh;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+    padding: 30px 0;
+  }
+
+  .modal-inner h2 {
+      padding: 0 0 15px 0;
+  }
+
+  .modal-inner p {
+      margin-top: 0;
+  }
 
 /*======================================= */
 #plan {
@@ -543,7 +576,6 @@ form textarea {
 .social li a {
     color: #8DB54B;
   }
-
   
   .social:hover > li {
     opacity: 0.5;
@@ -571,7 +603,6 @@ form textarea {
         width: 100%;
         margin: 10px auto;
     }
-    
     
     
   }
