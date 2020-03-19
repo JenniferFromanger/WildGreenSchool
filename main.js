@@ -28,3 +28,16 @@ for (let i = 0; i < mainButtons.length; i++) {
     })
 }
 
+// popup contact
+
+const openModButton = document.getElementById('open-modal');
+const closeModButton = document.getElementById('close-modal');
+
+openModButton.addEventListener('click', (event)=> {
+    document.getElementById('modal').style.display = 'block';
+    event.preventDefault(); 
+    })
+    
+closeModButton.addEventListener('click', () => {
+    document.getElementById('modal').style.display = 'none';
+    })

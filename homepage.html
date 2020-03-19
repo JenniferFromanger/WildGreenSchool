@@ -154,8 +154,16 @@
                     <option>Particulier</option>
                 </select>
                 <textarea id="message" class="required" name="message" rows="10" cols="40" placeholder="VOTRE MESSAGE..."></textarea>
-                <button type="submit" id="submit_button" value="Envoyer" class="bouton">Envoyer</button>
+            <button id="open-modal">Envoyer</button>
             </form>
+
+            <div id="modal" class="modal">
+                <div class="modal-inner">
+                  <h2>Félicitations</h2>
+                  <p>Votre message a bien été envoyé ! </br>Notre équipe reviendra vers vous très prochainement.</p>
+                  <button id="close-modal">Fermer</button>
+                </div>
+              </div>
         </div>
     </section>
     <section id="plan">
@@ -169,9 +177,6 @@
 
 
       <a href="#global_header" border="0"><img src="logo-wildgreenschool.png"> </a>
-
-
-            
 
             <p class="footer-links">
                 <a href="#Formation">Formations</a>
