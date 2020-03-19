@@ -109,6 +109,7 @@ button:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
+
 h2 {  /* Personnalisation de tous les h2 de la page */
     text-transform: uppercase;
     text-align: center;
