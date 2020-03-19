@@ -97,11 +97,17 @@ button {  /* Personnalisation de tous les bouttons de la page */
     font-weight: bold;
     text-transform: uppercase;
     width: 150px;
-    transition: width .3s;
+    height: 36px;
+    transition: s;
 }
 
 button:hover {
-    width: 180px;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+button:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
 
 h2 {  /* Personnalisation de tous les h2 de la page */
