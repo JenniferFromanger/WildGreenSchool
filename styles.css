@@ -144,6 +144,10 @@ h2 {  /* Personnalisation de tous les h2 de la page */
 
 }
 
+.articlesformation article img {
+    width: 100%;
+}
+
 article {
     width: 22em;
     margin: 2em auto 3em auto;
@@ -262,46 +266,47 @@ span.date {
 /* ----------------- CONTACT ------------------- */
 
 .contact {
-    background-color: #F6F6F4;
-    background-image: url(“https://www.transparenttextures.com/patterns/corrugation.png”);
+    background: url('Images/beanstalk.png');
 }
 
 .contact h2{
     margin: 0;
-    padding: 40px 0 20px 0;
+    padding: 40px 0 30px 0;
 }
 
 .contact-container {
     display: flex;
     justify-content: space-evenly;
-    background-color: #F6F6F4;
 }
 
 .pcontact {
     text-align: center; 
+    margin-top:0;
 }
 
 form {
     width: 50%;
     display: flex;
     flex-direction: column;
-    background-color: #8DB54B;
     padding-top: 20px;
     margin-bottom: 80px;
    /* box-shadow: 5px 5px 5px rgb(0, 0, 0); */
 }
 
 form input {
-    border: none;
+    border: 1.5px solid #8DB54B;
     margin: 10px auto;
     width: 90%;
     line-height: 3;
     color: rgb(24, 24, 24);
     outline-color: #8DB54B;
+    background-color: white;
 }
 
 input, textarea {
     padding-left: 2px;
+    background-color:  white;
+    border: 1.5px solid #8DB54B;
 }
 
 input:focus {
@@ -315,6 +320,7 @@ input:focus {
 form textarea {
     margin: 0 auto;
     width: 90%;
+    outline-color: #8DB54B;
 }
 
 #message {
@@ -326,10 +332,10 @@ form textarea {
     margin: 25px auto;
     width: 25%;
     border-radius: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color:#8DB54B;
     border: none;
     padding: 5px 12px 5px 12px;
-    color: #8DB54B;
+    color:white;
     transition: width .3s;
 }
 
@@ -342,10 +348,11 @@ form textarea {
     width: 90%;
     height: 40px;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    background: rgb(255, 255, 255);
+    background-color:white;;
     color: rgb(24, 24, 24);
     position: relative;
+    border: 1.5px solid #8DB54B;
+    outline-color: #8DB54B;
 }
 
 /*======================================= */
@@ -401,7 +408,7 @@ form textarea {
 	margin: 20px 0 12px;
 }
 .footer-bar .footer-links a:hover{
-    color: rgb(5, 190, 5);
+    color: #8DB54B;
     cursor: pointer;
 }
  
@@ -496,7 +503,7 @@ form textarea {
     width: 100%;
     margin-top: 0px;
     position: relative ;
-    right: 20px;
+    right: 40px;
     
     
   }
@@ -533,8 +540,8 @@ form textarea {
     text-decoration:none;
     
 }
-.social li a:link {
-    color:inherit;
+.social li a {
+    color: #8DB54B;
   }
 
   
