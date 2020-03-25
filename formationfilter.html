@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toutes nos formations</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <link rel=‘stylesheet’ href=‘reset.css’ />
+    <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <a onclick="topFunction()" id="myBtn" title="Go to top"><i class="icon-chevron-up"></i></a> 
+    <header id="global_header">
+        <div class="align-menu">
+
+        <button type="button" id="hamburger">
+            <img src="Images/hamburger.png" alt="menu de navigation" />
+        </button>
+        <div class="logo">
+            <a href="homepage.html"><img src="Images/logoWGS.png" alt="logo" /></a>
+        </div>
+        </div>
+        <div id="desktop_header">
+        <nav>
+            <ul>
+                <li><a href="homepage.html#Formation">Formations</a></li>
+                <li><a href="homepage.html#leCampus">Le Campus</a></li>
+                <li><a href="homepage.html#Lactus">Actus</a></li>
+                <li><a href="homepage.html#ContactUs">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="homepage.html#ContactUs"><button class="button-nav" type="submit">Je candidate</button></a>
+        </div>
+    </header>
+
+    <section id="responsive_menu">
+        <nav>
+            <ul>
+                <li><a href="homepage.html#Formation">Formations</a></li>
+                <li><a href="homepage.html#leCampus">Le Campus</a></li>
+                <li><a href="homepage.html#Lactus">Actus</a></li>
+                <li><a href="homepage.html#ContactUs">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="formations" id="Formation">
+
+        <h1>Toutes nos formations</h1>
+
+        <div class="pformations"><p>Découvrez nos formations en permaculture ! La permaculture est un système de culture intégré et évolutif s’inspirant des écosystèmes naturels. C’est également une démarche éthique et une philosophie qui s’appuient sur 3 piliers : <strong>« prendre soin de la Terre, prendre soin des humains et partager équitablement les ressources ».</strong> La société associe généralement permaculture avec maraîchage et jardinage amateur.</p>
+        </div>
+
+
+    <div class="btn-filter">
+
+        <button type="button" onclick="elevageshow()" >ELEVAGE</button>
+        <button type="button" onclick="planteshow()" >PLANTES</button>
+        <button type="button" onclick="dechetshow()" >DECHETS</button>
+        <button type="button" onclick="allshow()" >VOIR TOUT</button>
+
+    </div>    
+
+    <div class="articlesformation">
+
+        <article class="storeitem plantes">
+            <img src="Images/potager.png" alt="potager">
+            <h3>Faire son potager</h3>
+            <p>Faites pousser des fruits et légumes bio sans pesticides.</p>
+            <div class="voirformation"><a href="formations.html#idformationpotager"><button type="submit">Découvrir</button></a></div>
+        </article>
+        
+        <article class="storeitem elevage">
+            <img src="Images/ruche.png" alt="ruche">
+            <h3>Creer sa ruche</h3>
+            <p>Créez et installez votre propre ruche dans votre jardin.</p>
+            <div class="voirformation"><a href="formations.html#idformationruche"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+        <article class="storeitem dechet">
+            <img src="Images/lombric.png" alt="compostage">
+            <h3>Lombricompostage</h3>
+            <p>Découvrez le lombricompostage avec des vers et recyclez vos déchets.</p>
+            <div class="voirformation"><a href="formations.html#idformationcompost"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+
+        <article class="storeitem elevage">
+            <img src="Images/chevre.png" alt="">
+            <h3>Produire du lait de chevre</h3>
+            <p>Elever une chévre et produire son lait bio.</p>
+            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+        <article class="storeitem elevage">
+            <img src="Images/herisson.png" alt="">
+            <h3>Construire un abris a herissons</h3>
+            <p>Confectionner un abris à hérisson pour la saison hivernale.</p>
+            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+        <article class="storeitem elevage">
+            <img src="Images/ane.png" alt="">
+            <h3>Adopter et elever un ane</h3>
+            <p>Apprivoser un âne et vivre avec.</p>
+            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+        <article class="storeitem plantes">
+            <img src="Images/phytotherapie.png" alt="">
+            <h3>Initiation a la phytotherapie</h3>
+            <p>Booster ses défenses immunitaires avec les plantes.</p>
+            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+        <article class="storeitem plantes">
+            <img src="Images/huileessentielle.png" alt="">
+            <h3>Utiliser les huiles essentielles au quotidien</h3>
+            <p>Prendre soin de soi avec l'utilisation des huiles essentielles.</p>
+            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+        <article class="storeitem dechet">
+            <img src="Images/tridesdechets.png" alt="">
+            <h3>Sensibiliser au tri des dechets</h3>
+            <p>Apprendre à sensibiliser au tri.</p>
+            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+        <article class="storeitem dechet">
+            <img src="Images/zerodechet.png" alt="">
+            <h3>Adopter le zero dechet au quotidien</h3>
+            <p>Découvrir comment ne plus générer de déchets au quotidien.</p>
+            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
+        </article>
+
+
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer-bar" id="module">
+ 
+    <div class="footer-left">
+
+
+  <a href="#global_header" border="0"><img src="logo-wildgreenschool.png"> </a>
+
+        <p class="footer-links">
+            <a href="#Formation">Formations</a>
+            |
+            <a href="#leCampus">le Campus</a>
+            |
+            <a href="#Lactus">Actus</a>
+            |
+            <a href="#contact_form">Contactez-nous</a>
+        </p>
+
+        <p class="school-rights">© 2020 Wild Green School. Tous droits réservé</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="adresse"></i>
+              <p><span>4 avenue des Saules, bâtiment Le Doge,</span>  
+                59160 Lille</p>
+        </div>
+
+        <div>
+            <i class="telephone"></i>
+            <p>+33 6 42 44 83 97</p>
+        </div>
+        <div>
+            <i class="email"></i>
+            <p><a href="#contact_form">support@wildgreenschool.fr</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="Horaires">
+            <span>Horaires :</span>
+            lundi	    09:00–18:00<br/>
+        mardi	    09:00–18:00<br/>
+        mercredi	09:00–18:00<br/>
+        jeudi	    09:00–18:00<br/>
+        vendredi	09:00–18:00<br/>
+        samedi et dimanche	    Fermé
+            </p>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="icon-social">
+            <div id="social-test">
+              
+                <ul class="social">
+                    <li ><a href="https://fr-fr.facebook.com/WildCodeSchool/" target="_blank"><i  class="fa fa-facebook" aria-hidden="true" ></i></a></li>
+                    <li ><a href="https://twitter.com/wildschoollille?lang=fr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li ><a href="https://www.instagram.com/wildcodeschool_lille/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    
+                
+                </ul>
+            </div>
+              </div>
+    </div>
+</footer>
+
+    <script src="main.js"></script>
+    <script src="filter.js"></script>
+    <script src="js/btn.js"></script>
+
+</body>
+
+</html>

@@ -114,7 +114,7 @@ button:hover::after {
 
 }
 
-h2 {  /* Personnalisation de tous les h2 de la page */
+h1, h2 {  /* Personnalisation de tous les h2 de la page */
     text-transform: uppercase;
     text-align: center;
     font-size: 40px;
@@ -164,9 +164,15 @@ article {
     background-color: #F6F6F4;
 }
 
+article h3 {
+
+    height: 2em;
+}
+
 article p {
     
     margin: auto 1em 2em 1em;
+    height: 3em;
 }
 
 .voirformation {
