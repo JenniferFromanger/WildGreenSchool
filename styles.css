@@ -154,6 +154,12 @@ h1, h2 {  /* Personnalisation de tous les h2 de la page */
 
 }
 
+.formations a {
+    color:black;
+    font-weight: bold;
+
+}
+
 .articlesformation article img {
     width: 100%;
 }
@@ -188,6 +194,7 @@ article p {
     text-align: center;
     background-color: #F6F6F4;
     padding: 0.8em 0em 2em 0em;
+    margin-top: 3em;
 }
 
 .green {

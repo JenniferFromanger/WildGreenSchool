@@ -1,4 +1,42 @@
-const itemsArray = []
+  const articles = document.querySelectorAll(".storeitem");
+  const plantBtn = document.getElementById("plantBtn");
+  const breedBtn = document.getElementById("breedBtn");
+  const garbageBtn = document.getElementById("garbageBtn");
+  const allBtn = document.getElementById("allBtn");
+
+
+  const display = category => {
+    for (let i = 0; i < articles.length; i++) {
+      const art = articles[i];
+      if (art.classList.contains(category)) {
+        art.style.display = "block";
+      } else {
+        art.style.display = "none";
+      }
+    }
+  };
+
+
+  
+plantBtn.addEventListener("click", () => {
+    display("plantes");
+  });
+breedBtn.addEventListener("click", () => {
+    display("elevage");
+  });
+garbageBtn.addEventListener("click", () => {
+    display("dechet");
+  });
+allBtn.addEventListener("click", () => {
+    display("storeitem");
+  });
+
+
+
+/* CI-DESSOUS, ANCIEN CODE, NN REVU AVEC LOIC */
+
+
+/* const itemsArray = []
 let items = document.getElementsByClassName('storeitem')
 
 
@@ -116,6 +154,7 @@ function elevageshow() {
 
   }
 
+*/
 
 
 

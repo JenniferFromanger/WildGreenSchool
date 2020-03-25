@@ -27,7 +27,7 @@
         <div id="desktop_header">
         <nav>
             <ul>
-                <li><a href="homepage.html#Formation">Formations</a></li>
+                <li><a href="formationfilter.html">Formations</a></li>
                 <li><a href="homepage.html#leCampus">Le Campus</a></li>
                 <li><a href="homepage.html#Lactus">Actus</a></li>
                 <li><a href="homepage.html#ContactUs">Contact</a></li>
@@ -57,7 +57,7 @@
 
     <section class="formations" id="Formation">
 
-        <h1>Toutes nos formations</h1>
+        <h1>Les formations proposées</h1>
 
         <div class="pformations"><p>Découvrez nos formations en permaculture ! La permaculture est un système de culture intégré et évolutif s’inspirant des écosystèmes naturels. C’est également une démarche éthique et une philosophie qui s’appuient sur 3 piliers : <strong>« prendre soin de la Terre, prendre soin des humains et partager équitablement les ressources ».</strong> La société associe généralement permaculture avec maraîchage et jardinage amateur.</p>
         </div>
@@ -65,10 +65,10 @@
 
     <div class="btn-filter">
 
-        <button type="button" onclick="elevageshow()" >ELEVAGE</button>
-        <button type="button" onclick="planteshow()" >PLANTES</button>
-        <button type="button" onclick="dechetshow()" >DECHETS</button>
-        <button type="button" onclick="allshow()" >VOIR TOUT</button>
+        <button type="button" id="breedBtn">ELEVAGE</button>
+        <button type="button" id="plantBtn">PLANTES</button>
+        <button type="button" id="garbageBtn">DECHETS</button>
+        <button type="button" id="allBtn" >VOIR TOUT</button>
 
     </div>    
 
@@ -78,21 +78,18 @@
             <img src="Images/potager.png" alt="potager">
             <h3>Faire son potager</h3>
             <p>Faites pousser des fruits et légumes bio sans pesticides.</p>
-            <div class="voirformation"><a href="formations.html#idformationpotager"><button type="submit">Découvrir</button></a></div>
         </article>
         
         <article class="storeitem elevage">
             <img src="Images/ruche.png" alt="ruche">
             <h3>Creer sa ruche</h3>
             <p>Créez et installez votre propre ruche dans votre jardin.</p>
-            <div class="voirformation"><a href="formations.html#idformationruche"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article class="storeitem dechet">
             <img src="Images/lombric.png" alt="compostage">
             <h3>Lombricompostage</h3>
             <p>Découvrez le lombricompostage avec des vers et recyclez vos déchets.</p>
-            <div class="voirformation"><a href="formations.html#idformationcompost"><button type="submit">Découvrir</button></a></div>
         </article>
 
 
@@ -100,49 +97,42 @@
             <img src="Images/chevre.png" alt="">
             <h3>Produire du lait de chevre</h3>
             <p>Elever une chévre et produire son lait bio.</p>
-            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article class="storeitem elevage">
             <img src="Images/herisson.png" alt="">
             <h3>Construire un abris a herissons</h3>
             <p>Confectionner un abris à hérisson pour la saison hivernale.</p>
-            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article class="storeitem elevage">
             <img src="Images/ane.png" alt="">
             <h3>Adopter et elever un ane</h3>
             <p>Apprivoser un âne et vivre avec.</p>
-            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article class="storeitem plantes">
             <img src="Images/phytotherapie.png" alt="">
             <h3>Initiation a la phytotherapie</h3>
             <p>Booster ses défenses immunitaires avec les plantes.</p>
-            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article class="storeitem plantes">
             <img src="Images/huileessentielle.png" alt="">
             <h3>Utiliser les huiles essentielles au quotidien</h3>
             <p>Prendre soin de soi avec l'utilisation des huiles essentielles.</p>
-            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article class="storeitem dechet">
             <img src="Images/tridesdechets.png" alt="">
             <h3>Sensibiliser au tri des dechets</h3>
             <p>Apprendre à sensibiliser au tri.</p>
-            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
         </article>
 
         <article class="storeitem dechet">
             <img src="Images/zerodechet.png" alt="">
             <h3>Adopter le zero dechet au quotidien</h3>
             <p>Découvrir comment ne plus générer de déchets au quotidien.</p>
-            <div class="voirformation"><a href="formations.html#"><button type="submit">Découvrir</button></a></div>
         </article>
 
 
