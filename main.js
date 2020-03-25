@@ -6,6 +6,12 @@ function clickLink() {
 
 burgerButton.addEventListener('click', clickLink);
 
+const closeBar = document.querySelectorAll('a.closeButton');
+
+for (let i = 0; i < closeBar.length; i++) {
+    closeBar[i].addEventListener('click', clickLink);
+};
+
 
 //------------------------Fotter ---------------------------//
 
