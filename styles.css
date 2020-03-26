@@ -12,7 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
     font-size: 1.1em;
-    cursor: pointer;
+   /* cursor: pointer; */
 }
 
 #hamburger {
@@ -158,6 +158,17 @@ h1, h2 {  /* Personnalisation de tous les h2 de la page */
     color:black;
     font-weight: bold;
 
+}
+/*--opacité img formations--------------------*/
+.opacity { 
+
+    transition: .3s ease-in-out;
+
+}
+  
+.opacity:hover {
+
+    opacity: .5; 
 }
 
 .articlesformation article img {
@@ -754,6 +765,7 @@ html {
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+    width: 50px;
   }
   
   #myBtn:hover {
