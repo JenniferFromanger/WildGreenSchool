@@ -6,6 +6,7 @@
     <title>Toutes nos formations</title>
     <link rel='stylesheet' href='styles.css'/>
     <link rel=‘stylesheet’ href=‘reset.css’ />
+    <link rel=‘stylesheet’ href=‘flipbox.css’ />
     <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
     <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     
@@ -40,7 +41,7 @@
     <section id="responsive_menu">
         <nav>
             <ul>
-                <li><a href="homepage.html#Formation">Formations</a></li>
+                <li><a href="formationfilter.html">Formations</a></li>
                 <li><a href="homepage.html#leCampus">Le Campus</a></li>
                 <li><a href="homepage.html#Lactus">Actus</a></li>
                 <li><a href="homepage.html#ContactUs">Contact</a></li>
@@ -50,14 +51,15 @@
 
 
 
-
+    <div class="carouselformation">
+        <div class="baselineformations">Toutes les formations</div>
+    </div>
 
 
 
 
     <section class="formations" id="Formation">
 
-        <h1>Les formations proposées</h1>
 
         <div class="pformations"><p>Découvrez nos formations en permaculture ! La permaculture est un système de culture intégré et évolutif s’inspirant des écosystèmes naturels. C’est également une démarche éthique et une philosophie qui s’appuient sur 3 piliers : <strong>« prendre soin de la Terre, prendre soin des humains et partager équitablement les ressources ».</strong> La société associe généralement permaculture avec maraîchage et jardinage amateur.</p>
         </div>
@@ -74,11 +76,14 @@
 
     <div class="articlesformation">
 
-        <article class="storeitem plantes">
-            <img src="Images/potager.png" alt="potager">
-            <h3>Faire son potager</h3>
-            <p>Faites pousser des fruits et légumes bio sans pesticides.</p>
-        </article>
+
+
+            <article class="storeitem plantes flip-box-front">
+                <img src="Images/potager.png" alt="potager">
+                <h3>Faire son potager</h3>
+                <p>Faites pousser des fruits et légumes bio sans pesticides.</p>
+            </article>
+
         
         <article class="storeitem elevage">
             <img src="Images/ruche.png" alt="ruche">
