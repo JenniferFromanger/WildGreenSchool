@@ -8,6 +8,11 @@
     src: url('font/TNanti-Demo.otf');
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto-Condensed.ttf');
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
@@ -139,10 +144,12 @@ h1, h2 {  /* Personnalisation de tous les h2 de la page */
 
 }
 
-.pformations {
+.formations p {
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    font-family: 'Roboto';
+    line-height: 1.5em;
 
 }
 
