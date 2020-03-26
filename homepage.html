@@ -10,7 +10,7 @@
     <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="typeWriter()">
 <!-- Back to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="icon-chevron-up"></span></button> 
     <header id="global_header">
@@ -48,7 +48,7 @@
     <main>
     <div class="carousel">
         <div class="baseline-wild">Wild Green School</div>
-        <div class="baseline-description">Ta planète, tu la veux bleue ou à point ?</div>
+        <div class="baseline-description" id="demo"></div>
     </div>
 
     <section class="formations" id="formation">

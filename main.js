@@ -52,3 +52,17 @@ openModButton.addEventListener('click', (event)=> {
 closeModButton.addEventListener('click', () => {
     document.getElementById('modal').style.display = 'none';
     })
+
+//--------------- Effet texte au chargement de la page
+
+let i = 0;
+let txt = 'Ta planète, tu la veux bleue ou à point ?';
+const speed = 70;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
