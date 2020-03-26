@@ -18,7 +18,7 @@ for (let i = 0; i < closeBar.length; i++) {
 
 // changer l'année automatiquement au 1er janvier //
 var year= new Date().getFullYear();
-var date = `© ${year} Wild Green School. Tous droits réservé`;
+var date = `© ${year} Wild Green School. Tous droits réservés`;
 document.getElementsByClassName('school-rights')[0].innerHTML = date;
 //---------------------//
 const el = document.querySelector("#module");

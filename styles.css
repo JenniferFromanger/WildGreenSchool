@@ -144,13 +144,18 @@ h1, h2 {  /* Personnalisation de tous les h2 de la page */
 
 }
 
-.formations p {
-    width: 80%;
+.pformations {
+    width: 70%;
     text-align: center;
     margin: 0 auto;
     font-family: 'Roboto';
-    line-height: 1.5em;
+    line-height: 1.3em;
 
+}
+.titreformationp {
+    text-transform: uppercase;
+    font-size: 1.3em;
+   /* font-family: 'JennaSue'; */
 }
 
 .articlesformation {
@@ -166,7 +171,7 @@ h1, h2 {  /* Personnalisation de tous les h2 de la page */
     font-weight: bold;
 
 }
-/*--opacité img formations--------------------*/
+/*--opacité img formations sur homepage--------------------*/
 .opacity { 
 
     transition: .3s ease-in-out;
@@ -186,6 +191,7 @@ article {
     width: 22em;
     margin: 2em auto 3em auto;
     background-color: #F6F6F4;
+    font-family: 'Roboto';
 }
 
 article h3 {
@@ -195,8 +201,9 @@ article h3 {
 
 article p {
     
-    margin: auto 1em 2em 1em;
+    margin: auto 3em 2em 3em;
     height: 3em;
+    line-height: 1.5em;
 }
 
 .voirformation {
@@ -235,6 +242,17 @@ article p {
     height: 50px;
     font-family: 'JennaSue';
     font-size: 1.8em;
+}
+
+.pcampus {
+    font-family: 'Roboto';
+    line-height: 1.5em;
+}
+
+.pcampustitre {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color:#8DB54B
 }
 
 /* ----------------- ACTUS ------------------- */
@@ -323,6 +341,15 @@ span.date {
 .pcontact {
     text-align: center; 
     margin-top:0;
+    font-family: 'Roboto';
+    line-height: 1.8em;
+
+}
+
+.pcontactmaj {
+    color:#8DB54B;
+    text-transform: uppercase;
+    font-size: 1.3em;
 }
 
 form {
