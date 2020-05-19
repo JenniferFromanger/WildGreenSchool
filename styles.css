@@ -1,0 +1,811 @@
+@font-face {
+    font-family: 'JennaSue';
+    src: url('font/JennaSue.ttf');
+}
+
+@font-face {
+    font-family: 'TNanti-Demo';
+    src: url('font/TNanti-Demo.otf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto-Condensed.ttf');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    font-size: 1.1em;
+   /* cursor: pointer; */
+}
+
+#hamburger {
+    display: none;
+}
+
+header, nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#global_header nav ul {
+    padding: 0;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+}
+
+#desktop_header {
+    display: flex;
+    margin-right: 10px;
+}
+
+#global_header nav li a {
+    padding-right: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+#global_header nav li a:hover {
+    color: #8DB54B;
+    transition: color .3s;
+    cursor: pointer;
+  }
+
+.logo {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 10vw;
+    height: 3vw;
+    margin: 1vw;
+}
+
+.baseline-description {
+    color:white;
+    font-size: 30px;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+.baseline-wild {
+    color:white;
+    font-family: 'TNanti-Demo';
+    font-size: 5em;
+    text-decoration: underline;
+    padding-left: 50px;
+}
+
+.carousel {
+    height: 700px;
+    background: url(Images/carousel.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+}
+
+button {  /* Personnalisation de tous les bouttons de la page */
+    background-color: #8DB54B;
+    padding: 7px 20px;
+    margin: 10px;
+    border:none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 150px;
+    transition: width .3s;
+}
+
+button:hover {
+
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+
+    width: 180px;
+
+}
+
+h1, h2 {  /* Personnalisation de tous les h2 de la page */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0;
+    font-family: 'TNanti-Demo';
+}
+#responsive_menu {
+    display: none;
+}
+/* ----------------- FORMATIONS ------------------- */
+
+.formations {
+    text-align: center;
+
+}
+
+.formations h3 {
+    font-size: 2.3em;
+    font-family: 'JennaSue';
+    margin: 18px 0;
+
+}
+
+.pformations {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    line-height: 1.3em;
+
+}
+.titreformationp {
+    text-transform: uppercase;
+    font-size: 1.3em;
+   /* font-family: 'JennaSue'; */
+}
+
+.articlesformation {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.formations a {
+    color:black;
+    font-weight: bold;
+
+}
+/*--opacité img formations sur homepage--------------------*/
+.opacity { 
+
+    transition: .3s ease-in-out;
+
+}
+  
+.opacity:hover {
+
+    opacity: .5; 
+}
+
+.articlesformation article img {
+    width: 100%;
+}
+
+article {
+    width: 22em;
+    margin: 2em auto 3em auto;
+    background-color: #F6F6F4;
+    font-family: 'Roboto';
+}
+
+article h3 {
+
+    height: 2em;
+}
+
+article p {
+    
+    margin: auto 3em 2em 3em;
+    height: 3em;
+    line-height: 1.5em;
+}
+
+.voirformation {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+/* ----------------- CAMPUS ------------------- */
+
+.campus {
+    text-align: center;
+    background-color: #F6F6F4;
+    padding: 0.8em 0em 2em 0em;
+    margin-top: 3em;
+}
+
+.green {
+    color: #8DB54B;
+}
+
+.espcampus {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bloccampus {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.h3campus {
+    height: 50px;
+    font-family: 'JennaSue';
+    font-size: 1.8em;
+}
+
+.pcampus {
+    font-family: 'Roboto';
+    line-height: 1.5em;
+}
+
+.pcampustitre {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color:#8DB54B
+}
+
+/* ----------------- ACTUS ------------------- */
+
+.actus {
+    padding-bottom: 60px;
+}
+.actus h2 span {
+    color:#8DB54B;
+}
+
+.actu-container {
+    display: flex;
+}
+
+span.date {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 23%;
+    color: white;
+    background:black;
+    padding: 10px 10px;
+    text-align: center;
+    min-width: 70px;
+ }
+
+ span .date-chiffre {
+     font-size: 30px;
+ }
+
+.left-section {
+    display: flex;
+    position: relative;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.left-section img {
+    margin-right:0;
+}
+
+.right-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+
+.right-section {
+    flex-direction: column;
+    width: 50%;
+    margin-left:15px;
+}
+
+.img1, .img2, .img3 {
+    display: flex;
+    align-items: center;
+}
+
+.right-section p {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.right-section p a {
+    color:#8DB54B;
+}
+
+/* ----------------- CONTACT ------------------- */
+
+.contact {
+    background: url('Images/beanstalk.png');
+}
+
+.contact h2{
+    margin: 0;
+    padding: 40px 0 30px 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pcontact {
+    text-align: center; 
+    margin-top:0;
+    font-family: 'Roboto';
+    line-height: 1.8em;
+
+}
+
+.pcontactmaj {
+    color:#8DB54B;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+form input {
+    border: 1.5px solid #8DB54B;
+    margin: 10px auto;
+    width: 90%;
+    line-height: 3;
+    color: rgb(24, 24, 24);
+    outline-color: #8DB54B;
+    background-color: white;
+}
+
+input, textarea {
+    padding-left: 2px;
+    background-color:  white;
+    border: 1.5px solid #8DB54B;
+}
+
+input:focus {
+    background-color: rgb(240, 240, 240);
+}
+
+.required {
+    color: rgb(24, 24, 24);
+}
+
+form textarea {
+    margin: 0 auto;
+    width: 90%;
+    outline-color: #8DB54B;
+}
+
+#message {
+    padding-left: 2px;
+    color: rgb(24, 24, 24);
+}
+
+.bouton {
+    margin: 25px auto;
+    width: 25%;
+    border-radius: 0px;
+    background-color:#8DB54B;
+    border: none;
+    padding: 5px 12px 5px 12px;
+    color:white;
+    transition: width .3s;
+}
+
+.bouton:hover{
+    width: 35%;
+}
+
+.select-style {
+    margin: 15px auto;
+    width: 90%;
+    height: 40px;
+    overflow: hidden;
+    background-color:white;;
+    color: rgb(24, 24, 24);
+    position: relative;
+    border: 1.5px solid #8DB54B;
+    outline-color: #8DB54B;
+}
+/* ////////////////////////// POPUP ////////////////////////// */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+
+  .modal-inner {
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 30vh;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+    padding: 30px 0;
+  }
+
+  .modal-inner h2 {
+      padding: 0 0 15px 0;
+  }
+
+  .modal-inner p {
+      margin-top: 0;
+  }
+
+/*======================================= */
+#plan {
+    width: auto;
+}
+ /* ----------------- FOOTER ------------------- */
+.footer-bar{
+    background-image: url(Images/flower.jpg);
+    background-size: 400%;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 5px;
+}
+ 
+.footer-bar .footer-left,
+.footer-bar .footer-center,
+.footer-bar .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-bar .footer-left{
+	width: 30%;
+}
+ 
+.footer-bar h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+/* school logo */
+ 
+.footer-bar .footer-left img{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ 
+.footer-bar h3 {
+	color:  #F2F5BD;
+}
+ 
+/* Footer links */
+ 
+.footer-bar .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+.footer-bar .footer-links a:hover{
+    color: #8DB54B;
+    cursor: pointer;
+}
+ 
+.footer-bar .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-bar .school-rights{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-bar .footer-center{
+    width: 35%;
+    margin-top:  70px;
+}
+ 
+ 
+.footer-bar .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+    vertical-align: middle;
+    margin-left: 130px;
+}
+ 
+.footer-bar .footer-center i.email{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-bar .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-bar .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-bar .footer-center p a{
+	color:  #F2F5BD;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-bar .footer-right{
+	width: 30%;
+}
+ 
+.footer-bar .Horaires{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+    margin-top:  60px;
+    margin-left: 150px;
+}
+ 
+.footer-bar .Horaires span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+/* social media icons */
+
+.icon-social {
+    display: table;
+    width: 100%;
+    margin-top: 0px;
+    position: relative ;
+    left: 150px;
+
+    
+  }
+  
+  #social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;}
+    
+.social {
+    padding-left: 0px;
+    display: inline-flex;
+}
+.social li {
+    color: rgb(5, 190, 5);
+    list-style-type: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 1%;
+    border: 1px solid rgb(230, 240, 230);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+    text-decoration:none;
+    color: inherit;
+    outline: none;
+}
+.social li:hover {
+    color: rgb(0, 204, 0);
+    border: 1px solid rgb(230, 240, 230);
+    text-decoration:none;
+    
+}
+.social li a {
+    color: #8DB54B;
+  }
+  
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  }
+
+  /*---------- Fotter Mobile --------*/
+
+  @media screen and (max-width: 961px) {
+    .footer-bar .footer-left,
+    .footer-bar .footer-right,
+    .footer-bar .footer-center,
+    .footer-bar .Horaires,
+    .footer-bar .Horaires span,
+    .footer-bar .footer-center i
+    
+     {
+        height:auto;
+        display:inline-block;
+        align-items: center;
+        text-align: center ;
+        width: 100%;
+        margin: 10px auto;
+    }
+    /*.icon-social {
+        
+    }*/
+    
+    
+  }
+
+
+/* --------- PAGE FORMATIONS ----------- */
+
+.liststylenone {
+    list-style: none;
+    
+}
+
+.interligne {
+
+    line-height: 2em;
+}
+
+
+.carouselformation {
+    height: 450px;
+    background: url(Images/carousselformation.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.baselineformations {
+    color:white;
+    font-family: 'TNanti-Demo';
+    font-size: 5em;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+}
+
+.introformations {
+    width: 80%;
+    text-align: center;
+    margin: 4em auto;
+}
+
+.imgformation {
+
+    margin: auto 3em;
+}
+
+.bloctxtformation {
+    width: 60em;
+
+}
+
+/* formation ruche */
+
+.formationruche {
+    text-align: center;
+    background-color: #F6F6F4;
+    padding: 0.8em 0em 2em 0em;
+}
+
+
+.blocformationruche {
+    width: 55%;
+    height: auto;
+    text-align: left;
+    margin: 3em auto;
+    display: flex;
+
+}
+
+
+
+
+/* formation potager */
+
+.formationpotager {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 0.8em 0em 2em 0em;
+}
+
+.blocformationpotager {
+    width: 55%;
+    height: auto;
+    text-align: left;
+    margin: 3em auto;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+
+/* formation lombric */
+
+
+.formationruche {
+    text-align: center;
+    background-color: #F6F6F4;
+    padding: 0.8em 0em 2em 0em;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Bouton back to top */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #8DB54B; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width: 50px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+
+  }

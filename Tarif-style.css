@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: hsl(75, 25%, 94%);
+    margin: 0 auto;
+    font-family: 'Montserrat' , sans-serif;
+}
+.price-background {
+    background-image: url(Images/bg-top.svg), url(Images/bg-bottom.svg);
+    background-position: right -180px top -30px, left 0px , bottom 0px;
+    background-repeat: no-repeat, no-repeat;
+}
+.price-warp{
+    padding: 60px 0px 49px 0px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/*------------- Price Top ----------------------*/
+
+.price-top{
+    margin: 0 0 55px 0;
+}
+
+.price-top h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsl(233, 13%, 49%);
+    text-align: center;
+    line-height: 70px;
+    margin: 0px;
+}
+.account-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+.account-type p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px;
+    color: hsl(233, 13%, 49%);
+}
+/*------- switch account -------*/
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 32px;
+    margin: 0px 24px;
+    cursor: pointer;
+
+}
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+   /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(96, 72%, 59%);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-image: linear-gradient(-90deg, hsl(86, 87%, 27%), hsl(120, 81%, 58%) );
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 2px hsl(232, 13%, 33%);
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /*---------------------------------*/
+
+  .price-bottom {
+      justify-content: center;
+  }
+  .cards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .card-white{
+    color: hsl(117, 13%, 33%);
+    width: 87.500vw;
+    height: 459px;
+    background-color: rgb(169, 236, 148);
+    box-sizing: border-box;
+    padding: 36px 31px 38px 31px;
+    margin: 10px 0 10px 0px;
+    box-shadow: 0px 4px 30px -4px rgba(163, 168, 240,0.25);;
+    border-radius: 15px;
+  }
+  .card-green {
+    color: white;
+    width: 87.500vw;
+    height: 498px;
+    background-image: linear-gradient( hsl(115, 94%, 30%), hsl(103, 72%, 79%));
+    box-sizing: border-box;
+    padding: 36px 31px 38px 31px;
+    margin: 10px 0 10px 0px;
+    box-shadow: 0px 4px 30px -4px rgba(163, 168, 240,0.25);;
+    border-radius: 15px;
+}
+.tarif-section h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 28px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .tarif-section p{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -2.64px;
+    margin-block-start: 20px;
+    margin-block-end: 0px;
+  }
+  
+  .text-section p{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+  }
+
+  hr{
+    background-color: #CBCBCB;
+    color:#CBCBCB;
+    opacity: 40%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding:0px;
+    height: 1.3px;
+    border: none;
+  }
+
+  .button-gradient{
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.81rem;
+    letter-spacing: 2px;
+    line-height: 18px;
+    color: white;
+    background: linear-gradient( 90deg, hsl(143, 77%, 71%), hsl(125, 89%, 11%));
+    width: 50%;
+    height: 44px;
+    margin: 110px 0px 0px 0px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  
+    cursor: pointer;
+  }
+
+  .button-gradient:hover:active{
+    background: transparent;
+    color: hsl(125, 89%, 11%);
+    outline-color: hsl(125, 89%, 11%);
+  }
+
+
+
+
+  @media (min-width:1280px){
+
+    .price-background{
+      background-position: right 0px top -10px, left 0px bottom 0px;
+      background-repeat: no-repeat, no-repeat;
+    }
+  
+    .price-wrap{
+      padding: 60px 0px 0px 0px;
+    }
+  
+    .card-white{
+      width: 27.306vw
+      /*width: 27.344vw;*/
+    }
+  
+    .card-green{
+      width: 27.306vw
+      /*width: 27.344vw;*/
+    }
+  
+    .tarif-section p{
+      font-size: 4.5rem;
+    }
+  }
+
+  @media (min-width:961px)
+{
+
+  .card-white{
+    width: 29.297vw;
+  }
+
+  .card-green{
+    width: 29.297vw;
+    padding: 59px 31px 54px 31px;
+  }
+
+  .tarif-section p{
+    font-size: 4rem;
+  }
+  
+
+}
+
+@media (min-width:768px)
+{
+
+  .card-white{
+    width: 30vw;
+  }
+
+  .card-green{
+    width: 30vw;
+  }
+
+  .tarif-section p{
+    font-size: 3rem;
+  }
+
+}
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tarif-style.css" type="text/css">
+    
+  <title> Wild Green School</title>
+
+  
+</head>
+<body>
+  <div class="price-background">
+    <div class="price-warp">
+      <div class="price-top">
+          
+          <h1>Nos Tarifs Formations</h1>
+          <div class="account-type">
+            <p>Individuel</p>
+            <label class="switch">
+              <input type="checkbox" id="toggle-checkbox">
+              <span class="slider round"></span>
+            </label>
+            <p>Groupe (+ de 5 personnes)</p>
+          </div>
+          
+      </div>
+        
+      <div class="price-bottom">
+            <div class="cards">
+                <div class="card-1 card-white">
+                  <div class="tarif-section">
+                    <h1>Basic</h1>
+                    <p class="indv">&euro;5000</p><p hidden class="group">&euro;4000</p>
+                  </div>
+                  <div class="text-section">
+                    <p>Il existe de nombreuses possibilités de </br> financer votre formation</p>
+                    
+                    
+                  </div>
+                  <button class=button-gradient value="Learn More" onclick="window.location.href = 'homepage.html#ContactUs';">
+                    Contactez-nous
+                  </button>
+              </div> 
+              
+              <div class="card-2 card-green">
+                  <div class="tarif-section">
+                    <h1>20% discount</h1>
+                    <p class="indv">&euro;4000</p><p hidden class="group">&euro;3200</p>
+                  </div>
+                  <div class="text-section">
+                    <br>
+                    <p>si paiement avant le 1er fevrier</p>
+                    
+                  </div>
+                  
+                  <button class=button-gradient value="Learn More" onclick="window.location.href = 'homepage.html#ContactUs';">
+                    Contactez-nous
+                  </button>
+              </div>
+                
+              <div class="card-3 card-white">
+                <div class="tarif-section">
+                  <h1>10% discount</h1>
+                  <p class="indv">&euro;4500</p><p hidden class="group">&euro;3600</p>
+                </div>
+                <div class="text-section">
+                  <br>
+                  <p>si paiement avant le 1er mars</p>
+                  
+                </div>
+                
+                <button class=button-gradient value="Learn More" onclick="window.location.href = 'homepage.html#ContactUs';">
+                  Contactez-nous
+                </button>
+              </div>
+          </div>  
+
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+    
+        document.getElementById('toggle-checkbox').oninput = togglePrices
+        document.body.onload = togglePrices;
+
+        function togglePrices() {
+          Array.from(document.getElementsByClassName('indv')).forEach(element => {
+            element.style.display = this.checked ? 'none' : 'inline'
+          })
+          Array.from(document.getElementsByClassName('group')).forEach(element => {
+            element.style.display = this.checked ? 'inline' : 'none'
+          })
+        }
+
+</script>
+    
+  
+  
+  
+  
+  
+</body>
+</html>

@@ -1,0 +1,159 @@
+/* ----------------- Media Query ------------------- */
+
+
+@media screen and (max-width: 961px) {
+
+/* ----------------- Header------------------- */ 
+    #global_header {
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        padding: 11px 0;
+    }
+    #global_header nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 10px;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+    }
+
+    #hamburger img {
+        width: 100%;
+    }
+    
+    .logo {
+        width: 10%;
+    }
+
+    .align-menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 10px;
+    }
+/* ----------------- Burger Menu------------------- */ 
+    #responsive_menu {
+        display: block;
+        position: fixed;
+        height: 100%;
+        width: 18%;
+        background-color: #282828;
+        top: 73px;
+        left: -18%;
+        transition: left 0.5s;
+    }
+    #responsive_menu.open {
+        left: 0;
+    }
+    #responsive_menu nav {
+        margin-top: 0;
+    }
+    #responsive_menu nav ul {
+        list-style: none;
+        padding: 2px 0 0 0;
+        width: 100%;
+        margin-top: 0;
+    }
+    #responsive_menu nav ul li {
+        border-bottom: 2px solid #8DB54B;
+        margin-bottom: 4px;
+        padding: 5px 10px;
+    }
+    #responsive_menu nav ul a:hover {
+        color: #8DB54B;
+    }
+    #responsive_menu nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+
+    }
+/* ----------------- Actus ------------------- */
+    .actu-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    span.date {
+        top: 0%;
+        left: 0%;
+    }
+    
+    .left-section, .right-section {
+        margin:0;
+    }
+    
+    .left-section {
+        margin-bottom: 30px;
+    }
+    
+    .right-section h3 {
+    text-align: center;
+    }
+    
+    .right-section p {
+        width: 65%;
+    }
+
+
+
+/********************************************/
+/************* SECTION CONTACT **************/
+/********************************************/
+
+
+
+
+ 
+
+
+    /* ----------------- Page FORMATIONS ------------------- */
+
+
+    h2 {
+        line-height: 1.5em;
+    }
+
+    .blocformationpotager {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    
+    .blocformationruche {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imgformation {
+        margin: 0;
+    }
+
+    .bloctxtformation {
+        width: auto;
+
+    
+    }
+
+    .interligne {
+        padding: 0;
+        line-height: 2em;
+    }
+
+    .liststylenone {
+        padding: 0;
+        
+    }
+
+}
